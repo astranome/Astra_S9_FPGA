@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 
 <!-- General board description: vendor, name, etc. -->
-<board schema_version="2.0" vendor="https://github.com/astranome/Astra_S9_FPGA/tree/main/board_files/astra_S9_FPGA/1.0/board.xml" name="astra_S9_FPGA" display_name="AstraS9 Development Board" url="https://github.com/astranome/Astra_S9_FPGA" preset_file="preset.xml">
+<!--board schema_version="2.0" vendor="https://github.com/astranome/Astra_S9_FPGA/tree/main/board_files/astra_S9_FPGA/1.0/board.xml" name="astra_S9_FPGA" display_name="AstraS9 Development Board" url="https://github.com/astranome/Astra_S9_FPGA" preset_file="preset.xml"-->
+
+<board schema_version="2.1" vendor="miner.ebang.com.cn" name="ebaz4205" display_name="EBAZ4205 Development Board" url="http://miner.ebang.com.cn" preset_file="preset.xml">
+
 
 	<!-- Image of the board -->
 	<images>
