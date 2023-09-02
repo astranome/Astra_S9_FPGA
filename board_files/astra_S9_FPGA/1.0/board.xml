@@ -12,7 +12,7 @@
 	
 	<!-- Board PCB revision -->
 	<compatible_board_revisions>
-		<revision id="0">1.0</revision>
+		<revision id="1">1.0</revision>
 	</compatible_board_revisions>
 
 	<!-- Board file revision -->
