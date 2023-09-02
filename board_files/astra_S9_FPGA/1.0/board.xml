@@ -31,7 +31,7 @@
 			<!-- Associated FPGA interfaces and IP cores -->
 			<interfaces>
 
-				.			<!-- Zynq 7000 processing system -->
+							<!-- Zynq 7000 processing system -->
 		    	<interface mode="master" name="ps7_fixedio" type="xilinx.com:display_processing_system7:fixedio_rtl:1.0" of_component="ps7_fixedio" preset_proc="ps7_preset"> 
 		      		<preferred_ips>
 		        		<preferred_ip vendor="xilinx.com" library="ip" name="processing_system7" order="0"/>
