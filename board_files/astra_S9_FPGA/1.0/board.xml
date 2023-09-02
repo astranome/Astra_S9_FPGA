@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 
 <!-- General board description: vendor, name, etc. -->
-<board schema_version="1.2" vendor="https://github.com/MelodyCoin/eSnyne/tree/main/board_files/esnyne/1.0" name="eSnyne" display_name="eSnyne Development Board" url="https://github.com/melodycoin/eSnyne" preset_file="preset.xml">
+<board schema_version="2.0" vendor="https://github.com/astranome/Astra_S9_FPGA/blob/main/board_files/astra_S9_FPGA/1.0/board.xml" name="AstraS9" display_name="AstraS9 Development Board" url="https://github.com/astranome/Astra_S9_FPGA" preset_file="preset.xml">
 
 	<!-- Image of the board -->
 	<images>
-		<image name="eSnyne.jpg" display_name="eSnyne  Development Board" sub_type="board">
-			<description>eSnyne  Development Board</description>
+		<image name="AstraS9.jpg" display_name="AstraS9  Development Board" sub_type="board">
+			<description>AstraS9  Development Board</description>
 		</image>
 	</images>
 	
 	<!-- Board PCB revision -->
 	<compatible_board_revisions>
-		<revision id="1">1.0</revision>
+		<revision id="0">1.0</revision>
 	</compatible_board_revisions>
 
 	<!-- Board file revision -->
   	<file_version>1.0</file_version>
 
 	<!-- Board description -->
-  	<description>eSnyne  is mining board used in Antminer S9 bitcoin miner machine. This board features 256MB DDR3 memory, 256MB NAND Flash memory, 10/100MBit Ethernet and speed grade -1 Zynq 7010.</description>
+  	<description>AstraS9  is mining board used in Antminer S9 bitcoin miner machine. This board features 512MB DDR3 memory, 256MB NAND Flash memory, 10/100/1000MBit Ethernet and speed grade -1 Zynq 7010.</description>
 
 	<!-- Information about board components: fpga part, interfaces, etc. -->
 	<components>
 	
 		<!-- FPGA part -->
-		<component name="part0" display_name="eSnyne" type="fpga" part_name="xc7z010clg400-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.xilinx.com">
+		<component name="part0" display_name="AstraS9" type="fpga" part_name="xc7z010clg400-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.xilinx.com">
 			<description>FPGA part on the board</description>
       	
 			<!-- Associated FPGA interfaces and IP cores -->
