@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 
 <!-- General board description: vendor, name, etc. -->
-<board schema_version="2.0" vendor="https://github.com/astranome/Astra_S9_FPGA/blob/main/board_files/astra_S9_FPGA/1.0/board.xml" name="AstraS9" display_name="AstraS9 Development Board" url="https://github.com/astranome/Astra_S9_FPGA" preset_file="preset.xml">
+<board schema_version="2.0" vendor="https://github.com/astranome/Astra_S9_FPGA/blob/main/board_files/astra_S9_FPGA/1.0/board.xml" name="astra_S9_FPGA" display_name="AstraS9 Development Board" url="https://github.com/astranome/Astra_S9_FPGA" preset_file="preset.xml">
 
 	<!-- Image of the board -->
 	<images>
