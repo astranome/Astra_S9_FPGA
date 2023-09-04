@@ -39,7 +39,7 @@
 		      		</preferred_ips>
 		    	</interface>
 
-				<!-- User LEDs: Red and Green (LED6) -->
+				<!-- User LEDs: Red and Green (D3) -->
 				<interface mode="master" name="leds_2bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="leds_2bits" preset_proc="leds_2bits_preset">
 					<preferred_ips>
 						<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
