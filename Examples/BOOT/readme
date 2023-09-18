@@ -1,5 +1,8 @@
-Создайте на SD флешке 2 раздела
+Создайте на SD флешке 2 раздела, первый от 30М до 1Г (на случай размещения образа ФС на этом разделе)
 FAT or FAT32 with Label "BOOT" and size about 100M.
+Туда скиньте файлы из этой директории
 Copy 4 files from here into SD BOOT part
-Second part = ext4 with max size and label "rootfs" for Root FS
+Второй раздел ext4 для файловой системы вашего Линукса.
+Например отсюда https://rcn-ee.com/rootfs/eewiki/minfs/
+Second part = ext4 with max size and label "rootfs" for Root FS place, like Ubuntu or Debian
 Возможно, будет хорошей идеей создать  СВАП раздел...
