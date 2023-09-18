@@ -1,1 +1,5 @@
-
+Создайте на SD флешке 2 раздела
+FAT or FAT32 with Label "BOOT" and size about 100M.
+Copy 4 files from here into SD BOOT part
+Second part = ext4 with max size and label "rootfs" for Root FS
+Возможно, будет хорошей идеей создать  СВАП раздел...
