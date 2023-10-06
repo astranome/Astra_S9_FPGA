@@ -1,0 +1,1 @@
+-wto "47f8576bd9d74945b63d20d36fba2cfb" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "xilinx_vip" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "zynq_wrapper_behav" "xil_defaultlib.zynq_wrapper" "xil_defaultlib.glbl" -log "elaborate.log" 
