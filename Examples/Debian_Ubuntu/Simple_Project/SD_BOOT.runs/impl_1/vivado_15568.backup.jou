@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon May 30 00:36:57 2022
+# Process ID: 15568
+# Current directory: C:/Users/ASTRA.WORKER/Downloads/S9miner_sample-master/P04_SD_BOOT/SD_BOOT.runs/impl_1
+# Command line: vivado.exe -log zynq_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source zynq_wrapper.tcl -notrace
+# Log file: C:/Users/ASTRA.WORKER/Downloads/S9miner_sample-master/P04_SD_BOOT/SD_BOOT.runs/impl_1/zynq_wrapper.vdi
+# Journal file: C:/Users/ASTRA.WORKER/Downloads/S9miner_sample-master/P04_SD_BOOT/SD_BOOT.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source zynq_wrapper.tcl -notrace
