@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="zynq_wrapper_hw_platform_1" key="programflash.hwplatform"/>
+	<item value="H:\FPGA\S9miner_sample-master\P04_SD_BOOT\SD_BOOT.sdk\FSBL\bootimage\BOOT.bin" key="zynq_wrapper_hw_platform_1-imgFile"/>
+	<item value="Local" key="zynq_wrapper_hw_platform_1-target"/>
+	<item value="true" key="zynq_wrapper_hw_platform_1-blankCheck"/>
+	<item value="H:\FPGA\S9miner_sample-master\P04_SD_BOOT\SD_BOOT.sdk\FSBL\Debug\FSBL.elf" key="zynq_wrapper_hw_platform_1-fsblFile"/>
+	<item value="true" key="zynq_wrapper_hw_platform_1-verifyFlash"/>
+	<item value="nand_16" key="zynq_wrapper_hw_platform_1-flashType"/>
+	<item value="Auto Detect" key="zynq_wrapper_hw_platform_1-device"/>
+	<item value="" key="zynq_wrapper_hw_platform_1-offSet"/>
+</section>

@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]H:\FPGA\S9miner_sample-master\P04_SD_BOOT\SD_BOOT.sdk\FSBL\Debug\FSBL.elf
+	H:\FPGA\S9miner_sample-master\P04_SD_BOOT\SD_BOOT.sdk\zynq_wrapper_hw_platform_1\zynq_wrapper.bit
+	H:\14\u-boot.elf
+}

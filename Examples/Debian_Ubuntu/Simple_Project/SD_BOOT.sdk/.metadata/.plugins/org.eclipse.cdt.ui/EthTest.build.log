@@ -1,0 +1,8 @@
+20:16:19 **** Incremental Build of configuration Debug for project EthTest ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Цель `main-build' не требует выполнения команд.
+
+20:16:19 Build Finished (took 405ms)
+

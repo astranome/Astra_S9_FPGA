@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="F:\" key="bootgen_files_selection"/>
+	<item value="H:\FPGA\S9miner_sample-master\P04_SD_BOOT\SD_BOOT.sdk\FSBL\bootimage" key="zynq_flash_files_selection"/>
+	<item value="F:\" key="last_stored_selection"/>
+</section>
