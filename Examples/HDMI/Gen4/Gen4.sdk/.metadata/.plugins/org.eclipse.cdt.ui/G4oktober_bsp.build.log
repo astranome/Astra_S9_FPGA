@@ -1,0 +1,506 @@
+09:35:00 **** Auto Build of project G4oktober_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/lwip202_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/lwip202_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/nandps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/nandps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/v_tpg_v8_0/src"
+make -C ps7_cortexa9_0/libsrc/v_tpg_v8_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/video_common_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/video_common_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+xcoresightpsdcc.c:67:10: fatal error: xil_types.h: No such file or directory
+ #include <xil_types.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xcoresightpsdcc.o] Ошибка 1
+make[1]: Цель `libs' не была пересобрана из-за ошибок.
+make: *** [ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src/make.libs] Ошибка 2
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+In file included from xdevcfg.h:170:0,
+                 from xdevcfg.c:92:
+xdevcfg_hw.h:67:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdevcfg.o] Ошибка 1
+In file included from xdevcfg.h:170:0,
+                 from xdevcfg_g.c:55:
+xdevcfg_hw.h:67:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdevcfg_g.o] Ошибка 1
+In file included from xdevcfg_hw.c:52:0:
+xdevcfg_hw.h:67:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdevcfg_hw.o] Ошибка 1
+In file included from xdevcfg.h:170:0,
+                 from xdevcfg_intr.c:57:
+xdevcfg_hw.h:67:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdevcfg_intr.o] Ошибка 1
+In file included from xdevcfg.h:170:0,
+                 from xdevcfg_selftest.c:56:
+xdevcfg_hw.h:67:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdevcfg_selftest.o] Ошибка 1
+In file included from xdevcfg.h:170:0,
+                 from xdevcfg_sinit.c:55:
+xdevcfg_hw.h:67:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdevcfg_sinit.o] Ошибка 1
+make[1]: Цель `libs' не была пересобрана из-за ошибок.
+make: *** [ps7_cortexa9_0/libsrc/devcfg_v3_5/src/make.libs] Ошибка 2
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+xdmaps.c:81:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdmaps.o] Ошибка 1
+xdmaps_g.c:54:10: fatal error: xparameters.h: No such file or directory
+ #include "xparameters.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdmaps_g.o] Ошибка 1
+In file included from xdmaps_hw.c:53:0:
+xdmaps_hw.h:66:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdmaps_hw.o] Ошибка 1
+xdmaps_selftest.c:53:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdmaps_selftest.o] Ошибка 1
+xdmaps_sinit.c:54:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xdmaps_sinit.o] Ошибка 1
+make[1]: Цель `libs' не была пересобрана из-за ошибок.
+make: *** [ps7_cortexa9_0/libsrc/dmaps_v2_3/src/make.libs] Ошибка 2
+"Running Make libs in ps7_cortexa9_0/libsrc/lwip202_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/lwip202_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling lwip src and adapter files"
+In file included from lwip-2.0.2/src/core/init.c:42:0:
+../../../include/lwip/sys.h:42:10: fatal error: xpseudo_asm.h: No such file or directory
+ #include "xpseudo_asm.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [init.o] Ошибка 1
+In file included from lwip-2.0.2/src/core/mem.c:59:0:
+../../../include/lwip/sys.h:42:10: fatal error: xpseudo_asm.h: No such file or directory
+ #include "xpseudo_asm.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [mem.o] Ошибка 1
+In file included from lwip-2.0.2/src/core/memp.c:49:0:
+../../../include/lwip/sys.h:42:10: fatal error: xpseudo_asm.h: No such file or directory
+ #include "xpseudo_asm.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [memp.o] Ошибка 1
+In file included from lwip-2.0.2/src/core/netif.c:66:0:
+../../../include/lwip/sys.h:42:10: fatal error: xpseudo_asm.h: No such file or directory
+ #include "xpseudo_asm.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [netif.o] Ошибка 1
+In file included from lwip-2.0.2/src/core/pbuf.c:119:0:
+../../../include/lwip/sys.h:42:10: fatal error: xpseudo_asm.h: No such file or directory
+ #include "xpseudo_asm.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [pbuf.o] Ошибка 1
+In file included from lwip-2.0.2/src/core/timeouts.c:61:0:
+../../../include/lwip/sys.h:42:10: fatal error: xpseudo_asm.h: No such file or directory
+ #include "xpseudo_asm.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [timeouts.o] Ошибка 1
+In file included from lwip-2.0.2/src/core/sys.c:79:0:
+../../../include/lwip/sys.h:42:10: fatal error: xpseudo_asm.h: No such file or directory
+ #include "xpseudo_asm.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [sys.o] Ошибка 1
+In file included from lwip-2.0.2/src/core/tcp_out.c:55:0:
+../../../include/lwip/sys.h:42:10: fatal error: xpseudo_asm.h: No such file or directory
+ #include "xpseudo_asm.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [tcp_out.o] Ошибка 1
+In file included from contrib/ports/xilinx/sys_arch_raw.c:40:0:
+../../../include/lwip/sys.h:42:10: fatal error: xpseudo_asm.h: No such file or directory
+ #include "xpseudo_asm.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [sys_arch_raw.o] Ошибка 1
+contrib/ports/xilinx/netif/xpqueue.c:36:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xpqueue.o] Ошибка 1
+In file included from contrib/ports/xilinx/netif/xadapter.c:45:0:
+../../../include/lwip/sys.h:42:10: fatal error: xpseudo_asm.h: No such file or directory
+ #include "xpseudo_asm.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xadapter.o] Ошибка 1
+make[1]: *** Нет правила для сборки цели `xtopology_g.o', требуемой для `liblwip4.a'.
+make[1]: Цель `libs' не была пересобрана из-за ошибок.
+make: *** [ps7_cortexa9_0/libsrc/lwip202_v1_0/src/make.libs] Ошибка 2
+"Running Make libs in ps7_cortexa9_0/libsrc/nandps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/nandps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling nandps"
+In file included from xnandps.c:86:0:
+xnandps.h:194:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xnandps.o] Ошибка 1
+xnandps_bbm.c:56:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xnandps_bbm.o] Ошибка 1
+In file included from xnandps_g.c:59:0:
+xnandps.h:194:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xnandps_g.o] Ошибка 1
+In file included from xnandps_onfi.h:72:0,
+                 from xnandps_onfi.c:63:
+xnandps.h:194:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xnandps_onfi.o] Ошибка 1
+xnandps_sinit.c:57:10: fatal error: xparameters.h: No such file or directory
+ #include "xparameters.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xnandps_sinit.o] Ошибка 1
+make[1]: Цель `libs' не была пересобрана из-за ошибок.
+make: *** [ps7_cortexa9_0/libsrc/nandps_v2_3/src/make.libs] Ошибка 2
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+xscugic.c:127:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscugic.o] Ошибка 1
+In file included from xscugic_g.c:63:0:
+xscugic.h:197:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscugic_g.o] Ошибка 1
+xscugic_hw.c:80:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscugic_hw.o] Ошибка 1
+xscugic_intr.c:81:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscugic_intr.o] Ошибка 1
+xscugic_selftest.c:54:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscugic_selftest.o] Ошибка 1
+xscugic_sinit.c:56:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscugic_sinit.o] Ошибка 1
+make[1]: Цель `libs' не была пересобрана из-за ошибок.
+make: *** [ps7_cortexa9_0/libsrc/scugic_v3_9/src/make.libs] Ошибка 2
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+In file included from xscutimer.c:55:0:
+xscutimer.h:116:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscutimer.o] Ошибка 1
+In file included from xscutimer_g.c:55:0:
+xscutimer.h:116:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscutimer_g.o] Ошибка 1
+In file included from xscutimer_selftest.c:54:0:
+xscutimer.h:116:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscutimer_selftest.o] Ошибка 1
+In file included from xscutimer_sinit.c:55:0:
+xscutimer.h:116:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscutimer_sinit.o] Ошибка 1
+make[1]: Цель `libs' не была пересобрана из-за ошибок.
+make: *** [ps7_cortexa9_0/libsrc/scutimer_v2_1/src/make.libs] Ошибка 2
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+In file included from xscuwdt.c:55:0:
+xscuwdt.h:138:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscuwdt.o] Ошибка 1
+In file included from xscuwdt_g.c:56:0:
+xscuwdt.h:138:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscuwdt_g.o] Ошибка 1
+In file included from xscuwdt_selftest.c:54:0:
+xscuwdt.h:138:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscuwdt_selftest.o] Ошибка 1
+In file included from xscuwdt_sinit.c:55:0:
+xscuwdt.h:138:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xscuwdt_sinit.o] Ошибка 1
+make[1]: Цель `libs' не была пересобрана из-за ошибок.
+make: *** [ps7_cortexa9_0/libsrc/scuwdt_v2_1/src/make.libs] Ошибка 2
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+In file included from xsdps.c:98:0:
+xsdps.h:165:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xsdps.o] Ошибка 1
+xsdps_g.c:55:10: fatal error: xparameters.h: No such file or directory
+ #include "xparameters.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xsdps_g.o] Ошибка 1
+In file included from xsdps_options.c:84:0:
+xsdps.h:165:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xsdps_options.o] Ошибка 1
+xsdps_sinit.c:55:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xsdps_sinit.o] Ошибка 1
+make[1]: Цель `libs' не была пересобрана из-за ошибок.
+make: *** [ps7_cortexa9_0/libsrc/sdps_v3_4/src/make.libs] Ошибка 2
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+xuartps.c:59:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xuartps.o] Ошибка 1
+xuartps_g.c:56:10: fatal error: xparameters.h: No such file or directory
+ #include "xparameters.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xuartps_g.o] Ошибка 1
+In file included from xuartps_hw.c:53:0:
+xuartps_hw.h:73:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xuartps_hw.o] Ошибка 1
+In file included from xuartps_intr.c:55:0:
+xuartps.h:187:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xuartps_intr.o] Ошибка 1
+In file included from xuartps_options.c:58:0:
+xuartps.h:187:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xuartps_options.o] Ошибка 1
+xuartps_selftest.c:54:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xuartps_selftest.o] Ошибка 1
+xuartps_sinit.c:55:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xuartps_sinit.o] Ошибка 1
+make[1]: Цель `libs' не была пересобрана из-за ошибок.
+make: *** [ps7_cortexa9_0/libsrc/uartps_v3_6/src/make.libs] Ошибка 2
+"Running Make libs in ps7_cortexa9_0/libsrc/v_tpg_v8_0/src"
+make -C ps7_cortexa9_0/libsrc/v_tpg_v8_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling v_tpg"
+In file included from xv_tpg.c:9:0:
+xv_tpg.h:17:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+xv_tpg_g.c:32:10: fatal error: xparameters.h: No such file or directory
+ #include "xparameters.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+xv_tpg_sinit.c:10:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [libs] Ошибка 1
+make: *** [ps7_cortexa9_0/libsrc/v_tpg_v8_0/src/make.libs] Ошибка 2
+"Running Make libs in ps7_cortexa9_0/libsrc/video_common_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/video_common_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling video_common"
+xvidc.c:76:10: fatal error: xil_assert.h: No such file or directory
+ #include "xil_assert.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xvidc.o] Ошибка 1
+In file included from xvidc_edid.c:61:0:
+xvidc_edid.h:69:10: fatal error: xstatus.h: No such file or directory
+ #include "xstatus.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xvidc_edid.o] Ошибка 1
+xvidc_edid_ext.c:73:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xvidc_edid_ext.o] Ошибка 1
+xvidc_parse_edid.c:34:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xvidc_parse_edid.o] Ошибка 1
+In file included from xvidc_timings_table.c:63:0:
+xvidc.h:91:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xvidc_timings_table.o] Ошибка 1
+make[1]: Цель `libs' не была пересобрана из-за ошибок.
+make: *** [ps7_cortexa9_0/libsrc/video_common_v4_3/src/make.libs] Ошибка 2
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+In file included from xadcps.c:66:0:
+xadcps.h:195:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xadcps.o] Ошибка 1
+In file included from xadcps_g.c:61:0:
+xadcps.h:195:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xadcps_g.o] Ошибка 1
+In file included from xadcps_intr.c:67:0:
+xadcps.h:195:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xadcps_intr.o] Ошибка 1
+In file included from xadcps_selftest.c:61:0:
+xadcps.h:195:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xadcps_selftest.o] Ошибка 1
+xadcps_sinit.c:58:10: fatal error: xparameters.h: No such file or directory
+ #include "xparameters.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [xadcps_sinit.o] Ошибка 1
+make[1]: Цель `libs' не была пересобрана из-за ошибок.
+make: *** [ps7_cortexa9_0/libsrc/xadcps_v2_2/src/make.libs] Ошибка 2
+"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling XilFFs Library"
+cc932.c:6:10: fatal error: xparameters.h: No such file or directory
+ #include "xparameters.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [cc932.o] Ошибка 1
+In file included from diskio.c:90:0:
+../../../include/diskio.h:16:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [diskio.o] Ошибка 1
+ff.c:117:10: fatal error: xparameters.h: No such file or directory
+ #include "xparameters.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [ff.o] Ошибка 1
+make[1]: Цель `libs' не была пересобрана из-за ошибок.
+make: *** [ps7_cortexa9_0/libsrc/xilffs_v3_8/src/make.libs] Ошибка 2
+make: Цель `all' не была пересобрана из-за ошибок.
+
+09:35:28 Build Finished (took 27s.846ms)
+

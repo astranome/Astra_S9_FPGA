@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\Xilinx\Projects\Gen4\Gen4.sdk\tpg_800_600\Release" key="bootgen_files_selection"/>
+	<item value="C:\Xilinx\Projects\Gen4\Gen4.sdk" key="com.xilinx.sdk.hw.ui.hwspec.last"/>
+	<item value="C:\Xilinx\Projects\Gen4\Gen4.sdk\fsbl4\bootimage" key="zynq_flash_files_selection"/>
+	<item value="C:\Xilinx\Projects\Gen4\Gen4.sdk\fsbl4\bootimage" key="last_stored_selection"/>
+</section>

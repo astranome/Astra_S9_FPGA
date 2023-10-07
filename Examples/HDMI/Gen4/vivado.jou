@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Oct  4 08:27:17 2023
+# Process ID: 3956
+# Current directory: C:/Xilinx/Projects/Gen4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3696 C:\Xilinx\Projects\Gen4\Gen4.xpr
+# Log file: C:/Xilinx/Projects/Gen4/vivado.log
+# Journal file: C:/Xilinx/Projects/Gen4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/Projects/Gen4/Gen4.xpr
+update_compile_order -fileset sources_1
+update_ip_catalog -rebuild
+update_ip_catalog
+open_bd_design {C:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/gener4.bd}
+startgroup
+set_property -dict [list CONFIG.kD2Swap {false}] [get_bd_cells rgb2dvi_0]
+endgroup
+save_bd_design
+reset_run gener4_rgb2dvi_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+set_property strategy Flow_RuntimeOptimized [get_runs synth_1]
+reset_run gener4_rgb2dvi_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1

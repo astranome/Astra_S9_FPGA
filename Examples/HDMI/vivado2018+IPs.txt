@@ -1,0 +1,446 @@
+
+INCREMENT VIVADO_HLS xilinxd 2999.99 permanent uncounted 05DCCDA1B444 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT Vivado_System_Edition xilinxd 2037.05 permanent uncounted \
+	A1074C37F742 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER="Xilinx Inc" START=19-May-2016 TS_OK
+PACKAGE Vivado_System_Edition xilinxd 2037.05 DFF4A65E0A68 \
+	COMPONENTS="ISIM ChipScopePro_SIOTK PlanAhead ChipscopePro XPS \
+	ISE HLS_Synthesis AccelDSP Vivado Rodin_Synthesis \
+	Rodin_Implementation Rodin_SystemBuilder \
+	PartialReconfiguration AUTOESL_FLOW AUTOESL_CC AUTOESL_OPT \
+	AUTOESL_SC AUTOESL_XILINX petalinux_arch_ppc \
+	petalinux_arch_microblaze petalinux_arch_zynq ap_sdsoc SDK \
+	SysGen Simulation Implementation Analyzer HLS Synthesis \
+	VIVADO_HLS" OPTIONS=SUITE
+
+INCREMENT 10_100_mb_eth_mac xilinxd 2999.99 permanent uncounted \
+	2CB6538936A4 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT ap_cc xilinxd 2999.99 permanent uncounted 38666FAA9425 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT ap_opencl_soc xilinxd 2999.99 permanent uncounted \
+	819C929BB5C8 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT ap_sdsoc xilinxd 2999.99 permanent uncounted F120F0F0F6D6 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT apu_fpu_sp xilinxd 2999.99 permanent uncounted 33AF5EAB646D \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT aurora xilinxd 2999.99 permanent uncounted 88CCD127D46E \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT aurora_64b66b xilinxd 2999.99 permanent uncounted \
+	1F61BEB4D366 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT aurora_8b10b xilinxd 2999.99 permanent uncounted \
+	569A18759231 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT axi_ethernet xilinxd 2999.99 permanent uncounted \
+	FE258F0DF687 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT axi_usb2_device xilinxd 2999.99 permanent uncounted \
+	D992FAEDDDB2 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT can xilinxd 2999.99 permanent uncounted 42991395D9CF \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT canfd xilinxd 2999.99 permanent uncounted EF58AE4A87AD \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT cmac xilinxd 2999.99 permanent uncounted 0BDD468495FB \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT cmac_an_lt xilinxd 2999.99 permanent uncounted 791250E8E1DD \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT cmac_usplus xilinxd 2999.99 permanent uncounted \
+	0F80E60665FF VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT cpri xilinxd 2999.99 permanent uncounted 3C9FEE26E8CD \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT displayport xilinxd 2999.99 permanent uncounted \
+	2D20A6CDB4D2 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT dlcr_3gpp xilinxd 2999.99 permanent uncounted A21D7DBB6242 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT dp_rx_subsystem xilinxd 2999.99 permanent uncounted \
+	D9553855B029 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT dp_tx_subsystem xilinxd 2999.99 permanent uncounted \
+	598CF0B5D843 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT dvb_s2_fec_encoder xilinxd 2999.99 permanent uncounted \
+	B6136D8E0336 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT eth_avb_endpoint xilinxd 2999.99 permanent uncounted \
+	162EFACD997E VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT ethernet_1_10_25g xilinxd 2999.99 permanent uncounted \
+	953DC1DBA93D VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT ethernet_statistics xilinxd 2999.99 permanent uncounted \
+	C0CE00F83421 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT etrnic xilinxd 2999.99 permanent uncounted D2E6B10F6262 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT fc32_rs_fec xilinxd 2999.99 permanent uncounted \
+	47FC410F5059 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT flexo_100g_rs_fec xilinxd 2999.99 permanent uncounted \
+	BB71CC4737F1 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT hdcp xilinxd 2999.99 permanent uncounted EF49C19CF098 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT g709_gfec_otu1 xilinxd 2999.99 permanent uncounted \
+	EFB1770ACB09 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT g709_gfec_otu2 xilinxd 2999.99 permanent uncounted \
+	86E541FBE03B VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT g709_gfec_otu3 xilinxd 2999.99 permanent uncounted \
+	CE7A43F4D145 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT g709_gfec_otu4 xilinxd 2999.99 permanent uncounted \
+	81BDC5051EA7 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT g975_efec_i4 xilinxd 2999.99 permanent uncounted \
+	45F338FCEA50 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT g975_efec_i7 xilinxd 2999.99 permanent uncounted \
+	F84442C7E875 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT gig_eth_pcs_pma xilinxd 2999.99 permanent uncounted \
+	0A57E9287F18 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT ieee802d3_25g_rs_fec_full xilinxd 2999.99 permanent \
+	uncounted 4F7C11D3664C VENDOR_STRING=License_Type:Source \
+	HOSTID=ANY
+INCREMENT ieee802d3_50g_rs_fec xilinxd 2999.99 permanent uncounted \
+	F06503E4E6FA VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT ieee802d3_clause74_fec xilinxd 2999.99 permanent uncounted \
+	04B1B9BE3FDE VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT ieee802d3_rs_fec_full xilinxd 2999.99 permanent uncounted \
+	80437C8B0311 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT ieee802d3_200g_rs_fec xilinxd 2999.99 permanent uncounted \
+	218512563881 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT ieee802d3_400g_rs_fec xilinxd 2999.99 permanent uncounted \
+	E1181646227F VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT interlaken xilinxd 2999.99 permanent uncounted 0346CA2BD56C \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT jesd204 xilinxd 2999.99 permanent uncounted BAFF60F7F8D0 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT jesd204c xilinxd 2999.99 permanent uncounted CDFDCC82C91D \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT l_eth_basekr xilinxd 2999.99 permanent uncounted \
+	A297F8B86D3B VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT l_eth_baser xilinxd 2999.99 permanent uncounted \
+	4688DB70FD50 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT l_eth_mac_pcs xilinxd 2999.99 permanent uncounted \
+	C53C38CA068F VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT l_ethernet xilinxd 2999.99 permanent uncounted D6BB4BA3C9CF \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT ldpc_802_16_enc xilinxd 2999.99 permanent uncounted \
+	CEA25E4EF190 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT ldpc xilinxd 2999.99 permanent uncounted DB9580178921 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT lte_3gpp_channel_estimator xilinxd 2999.99 permanent \
+	uncounted 5D30E022C5CC VENDOR_STRING=License_Type:Source \
+	HOSTID=ANY
+INCREMENT lte_3gpp_mimo_decoder xilinxd 2999.99 permanent uncounted \
+	2FB37C2C33DD VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT lte_3gpp_mimo_encoder xilinxd 2999.99 permanent uncounted \
+	347D7E43E69D VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT lte_dl_channel_encoder xilinxd 2999.99 permanent uncounted \
+	F64865F0C28A VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT lte_fft xilinxd 2999.99 permanent uncounted C29E9D6482B7 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT lte_pucch_receiver xilinxd 2999.99 permanent uncounted \
+	8EC15FA6749E VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT lte_rach_detector xilinxd 2999.99 permanent uncounted \
+	E2D047F557F6 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT lte_ul_channel_decoder xilinxd 2999.99 permanent uncounted \
+	C3AA4DDEC106 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT mipi_csi2_rx_ctrl xilinxd 2999.99 permanent uncounted \
+	DD4EAF0EBA7E VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT mipi_csi2_tx_ctrl xilinxd 2999.99 permanent uncounted \
+	0C9DE752F0B8 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT mipi_dsi_tx_ctrl xilinxd 2999.99 permanent uncounted \
+	FFF2F58D1571 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT most_nic xilinxd 2999.99 permanent uncounted D83473F989C8 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT opb_ethernet xilinxd 2999.99 permanent uncounted \
+	D3EEF75BEF7E VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT opb_ethernetlite xilinxd 2999.99 permanent uncounted \
+	0DF75573B3D0 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT opb_iic xilinxd 2999.99 permanent uncounted 6D499FFD32C9 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT opb_pci xilinxd 2999.99 permanent uncounted 1350A40E4ABE \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT opb_uart16550 xilinxd 2999.99 permanent uncounted \
+	96AB58EA1D3D VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT opb_usb2_device xilinxd 2999.99 permanent uncounted \
+	B0AE94415295 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pc_cfr xilinxd 2999.99 permanent uncounted 394382F30FFE \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pci_express xilinxd 2999.99 permanent uncounted \
+	09E42F1DD698 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pci32 xilinxd 2999.99 permanent uncounted 4E3C49D60D32 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pci32_sp xilinxd 2999.99 permanent uncounted 019619577872 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pci32_spng xilinxd 2999.99 permanent uncounted E2926787190F \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pci32_vx xilinxd 2999.99 permanent uncounted A2E8D45289D3 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pci64 xilinxd 2999.99 permanent uncounted C15677736919 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pci64_sp xilinxd 2999.99 permanent uncounted CB5E159BE40B \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pci64_vx xilinxd 2999.99 permanent uncounted 41EFE0A21558 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pcie_blk_plus xilinxd 2999.99 permanent uncounted \
+	4FC2F2BE917D VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pcie_blk_plus_v1 xilinxd 2999.99 permanent uncounted \
+	CCF7D0E14984 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pcie_pipe xilinxd 2999.99 permanent uncounted 65B40B9AA43A \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pcix xilinxd 2999.99 permanent uncounted DEC326C66EE6 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pcix64 xilinxd 2999.99 permanent uncounted 96554086AD67 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pl4 xilinxd 2999.99 permanent uncounted 3F32A458902F \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT pl4_lite xilinxd 2999.99 permanent uncounted 20695ED89F7A \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT plb_ethernet xilinxd 2999.99 permanent uncounted \
+	B73416920238 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT plb_pci xilinxd 2999.99 permanent uncounted 3712448993CE \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT plb_temac xilinxd 2999.99 permanent uncounted DFEA5FF5AC1F \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT plb_uart16550 xilinxd 2999.99 permanent uncounted \
+	71B0F33B1897 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT plbv46_pci xilinxd 2999.99 permanent uncounted 247115E674DC \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT polar xilinxd 2999.99 permanent uncounted C02D8EC64CBC \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT rach_3gpp xilinxd 2999.99 permanent uncounted 21D76EDBB10B \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT rio_log_io xilinxd 2999.99 permanent uncounted D3235802AE3E \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT rio_log_io_v3 xilinxd 2999.99 permanent uncounted \
+	0F9947490103 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT rio_log_io_v4 xilinxd 2999.99 permanent uncounted \
+	C558F4A2CD14 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT rio_log_io_v5 xilinxd 2999.99 permanent uncounted \
+	6A69056FFD0D VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT rs_decoder xilinxd 2999.99 permanent uncounted 5C33AD1D9A04 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT rs_encoder xilinxd 2999.99 permanent uncounted C24546D2ECF9 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT rxaui xilinxd 2999.99 permanent uncounted 2A149D312DD9 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT s6_pcie xilinxd 2999.99 permanent uncounted AF0B643C8380 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT s6_pcie_v1 xilinxd 2999.99 permanent uncounted 703151E92F56 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT sd_fec xilinxd 2999.99 permanent uncounted 3A3E4659EB8C \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT searcher_3gpp xilinxd 2999.99 permanent uncounted \
+	195748B822FC VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT sem xilinxd 2999.99 permanent uncounted 033B0607DA0B \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT sid xilinxd 2999.99 permanent uncounted 4FF4A189FF7B \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT soft_temac_wrap xilinxd 2999.99 permanent uncounted \
+	B40CD428558C VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT spdif xilinxd 2999.99 permanent uncounted 3862F5634BEA \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT spi3_link xilinxd 2999.99 permanent uncounted 9B1D177D4613 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT srio_gen2 xilinxd 2999.99 permanent uncounted 3012A62E3537 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT srio_phy xilinxd 2999.99 permanent uncounted 59754F2ACDA3 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT srio_phy_v3 xilinxd 2999.99 permanent uncounted \
+	1C34C1D276B0 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT srio_phy_v4 xilinxd 2999.99 permanent uncounted \
+	BE14E444FF90 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT srio_phy_v5 xilinxd 2999.99 permanent uncounted \
+	FF8C2B7EF844 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT srio_phylog_io xilinxd 2999.99 permanent uncounted \
+	5D370BB8F6B4 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT tcc_dec_802_16e xilinxd 2999.99 permanent uncounted \
+	B654944B8BD0 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT tcc_decoder xilinxd 2999.99 permanent uncounted \
+	799DEA18BB1C VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT tcc_decoder_3gpp xilinxd 2999.99 permanent uncounted \
+	C04B5F359520 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT tcc_decoder_3gpplte xilinxd 2999.99 permanent uncounted \
+	1D053172A503 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT tcc_decoder_3gppmm xilinxd 2999.99 permanent uncounted \
+	AAE3DDE22FC3 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT tcc_enc_802_16e xilinxd 2999.99 permanent uncounted \
+	213796ACF18E VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT tcc_encoder xilinxd 2999.99 permanent uncounted \
+	E7F4DA5309A6 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT tcc_encoder_3gpp xilinxd 2999.99 permanent uncounted \
+	1E7BBDBB9F5A VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT tcc_encoder_3gpp2 xilinxd 2999.99 permanent uncounted \
+	BCE603C0E61A VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT tcc_encoder_3gpplte xilinxd 2999.99 permanent uncounted \
+	72E7F9CA3579 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT ten_gig_eth_mac xilinxd 2999.99 permanent uncounted \
+	E6B6297ACE09 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT ten_gig_eth_pcs_pma xilinxd 2999.99 permanent uncounted \
+	5F51B349375E VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT ten_gig_eth_pcs_pma_basekr xilinxd 2999.99 permanent \
+	uncounted 47D87069D8FA VENDOR_STRING=License_Type:Source \
+	HOSTID=ANY
+INCREMENT tri_mode_eth_mac xilinxd 2999.99 permanent uncounted \
+	C5AA77541DA8 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT tri_mode_ethernet_mac xilinxd 2999.99 permanent uncounted \
+	D2D3A055589A VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT tsn_bridged_endpoint_eth_mac xilinxd 2999.99 permanent \
+	uncounted AE4AFC1869B5 VENDOR_STRING=License_Type:Source \
+	HOSTID=ANY
+INCREMENT tsn_endpoint_eth_mac xilinxd 2999.99 permanent uncounted \
+	A04C0F12E709 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT usb2_device xilinxd 2999.99 permanent uncounted \
+	2CB5B3472DCF VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT usxgmii xilinxd 2999.99 permanent uncounted E2FF4823B2C5 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT usxgmii_mac_pcs xilinxd 2999.99 permanent uncounted \
+	74A4952E6A92 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT usxgmii_pcs xilinxd 2999.99 permanent uncounted \
+	423DEF60EC01 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_ccm xilinxd 2999.99 permanent uncounted C8B93E3791E9 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_cfa xilinxd 2999.99 permanent uncounted 35D3EEFEC9E2 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_cresample xilinxd 2999.99 permanent uncounted \
+	2178F3DD127B VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_deinterlacer xilinxd 2999.99 permanent uncounted \
+	73E09C90420A VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_demosaic xilinxd 2999.99 permanent uncounted D71281F3AD51 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_dp_rxss1 xilinxd 2999.99 permanent uncounted 0AD62DBACCFB \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_dp_txss1 xilinxd 2999.99 permanent uncounted 988F4FDA90FB \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_enhance xilinxd 2999.99 permanent uncounted C1A8F3BC1D8F \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_gamma xilinxd 2999.99 permanent uncounted 651A3FEA2ABF \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_gamma_lut xilinxd 2999.99 permanent uncounted \
+	70BDEB09BF86 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_hdmi xilinxd 2999.99 permanent uncounted C567B8D2133A \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_ic xilinxd 2999.99 permanent uncounted 4EC218A5965D \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_ipipe xilinxd 2999.99 permanent uncounted 39704F8E2D8E \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_manr xilinxd 2999.99 permanent uncounted 6AACB0236B38 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_mix xilinxd 2999.99 permanent uncounted 79440F0447D2 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_noise xilinxd 2999.99 permanent uncounted 0F10C6344329 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_osd xilinxd 2999.99 permanent uncounted D9EAB1529990 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_proc_ss xilinxd 2999.99 permanent uncounted AAAB6D0A35C9 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_rgb2ycrcb xilinxd 2999.99 permanent uncounted \
+	8AE8B1B4203F VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_rgb2ycrcb_v2 xilinxd 2999.99 permanent uncounted \
+	0FC0AB1B709A VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_rgb2ycrcd xilinxd 2999.99 permanent uncounted \
+	6D383B685253 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_scaler xilinxd 2999.99 permanent uncounted C065ADF21C72 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_spc xilinxd 2999.99 permanent uncounted AA03C08E41FA \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_stats xilinxd 2999.99 permanent uncounted C54ECDFECDC0 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_tc xilinxd 2999.99 permanent uncounted C0985B0F8FFF \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_tc_v1 xilinxd 2999.99 permanent uncounted 009F88C5FCF5 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_timebase xilinxd 2999.99 permanent uncounted 830FCE7C205E \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_tpg xilinxd 2999.99 permanent uncounted D62F2B30726E \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_vdma xilinxd 2999.99 permanent uncounted A36E0A2AB502 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_ycrcb2rgb xilinxd 2999.99 permanent uncounted \
+	C23E08ADFE0E VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v_ycrcb2rgb_v2 xilinxd 2999.99 permanent uncounted \
+	D1A79A0E2467 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v4_emac xilinxd 2999.99 permanent uncounted 90CEDC1A96FB \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v4_emac_v4 xilinxd 2999.99 permanent uncounted 991E45DA929F \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v5_emac xilinxd 2999.99 permanent uncounted D58B25C29C29 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v5_emac_v1 xilinxd 2999.99 permanent uncounted 23D78F14F7C6 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v6_emac xilinxd 2999.99 permanent uncounted C0D6BE9616BF \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v6_emac_v1 xilinxd 2999.99 permanent uncounted 3E89A6D84CE1 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v6_pcie xilinxd 2999.99 permanent uncounted 78D864398668 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT v6_pcie_v1 xilinxd 2999.99 permanent uncounted DD7B3202927C \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT viterbi xilinxd 2999.99 permanent uncounted 2F106B5234CE \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xaui xilinxd 2999.99 permanent uncounted 669D0A2D80EB \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xaui_v3_0 xilinxd 2999.99 permanent uncounted F7D2CE6F1F9F \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xaui_v4_0 xilinxd 2999.99 permanent uncounted 1F7F756C3CB8 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xaui_v5_0 xilinxd 2999.99 permanent uncounted DAEE6C993D65 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xaui_v6 xilinxd 2999.99 permanent uncounted 6F27DD9BE636 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xaui_v7 xilinxd 2999.99 permanent uncounted 07E0D377ED29 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xaui_v8 xilinxd 2999.99 permanent uncounted E99715BF5C68 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xczu3eg-es1 xilinxd 2999.99 permanent uncounted \
+	ADDB38C4E4F5 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT XCZU3EG-ES1_bitgen xilinxd 2999.99 permanent uncounted \
+	84DB8F4880CD VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xczu9eg-es1 xilinxd 2999.99 permanent uncounted \
+	684E32C6AC51 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT XCZU9EG-ES1_bitgen xilinxd 2999.99 permanent uncounted \
+	D8A3E99E407B VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT XCZU9EG-ES2 xilinxd 2999.99 permanent uncounted \
+	167E09A0A561 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT XCZU9EG-ES2_bitgen xilinxd 2999.99 permanent uncounted \
+	D3DBC1649D66 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT XCZU15EG-ES1 xilinxd 2999.99 permanent uncounted \
+	51923C1D6F85 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT XCZU15EG-ES1_bitgen xilinxd 2999.99 permanent uncounted \
+	4134C2479589 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT XCZU19EG-ES2 xilinxd 2999.99 permanent uncounted \
+	56693A98819A VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT XCZU19EG-ES2_bitgen xilinxd 2999.99 permanent uncounted \
+	EE1C0C17E3FC VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xhmc xilinxd 2999.99 permanent uncounted 1FB5AD710CEB \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xps_ethernetlite xilinxd 2999.99 permanent uncounted \
+	D2BAE830D556 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xps_iic xilinxd 2999.99 permanent uncounted DDD6E89E64D1 \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xps_ll_temac xilinxd 2999.99 permanent uncounted \
+	0A5C92BC3764 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xps_most_nic xilinxd 2999.99 permanent uncounted \
+	02499FBDADFE VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xps_uart16550 xilinxd 2999.99 permanent uncounted \
+	EFC2B589AB38 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xps_usb_host xilinxd 2999.99 permanent uncounted \
+	506EE4FEFFB7 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xps_usb2_device xilinxd 2999.99 permanent uncounted \
+	06C8277A6A7C VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xxv_ethernet xilinxd 2999.99 permanent uncounted \
+	5C73325A4AF0 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xxv_eth_mac_pcs xilinxd 2999.99 permanent uncounted \
+	1E9CF51CA1F4 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xxv_eth_basekr xilinxd 2999.99 permanent uncounted \
+	07DDD0021115 VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT xxv_tsn_802d1cm xilinxd 2999.99 permanent uncounted \
+	36B3F632338E VENDOR_STRING=License_Type:Source HOSTID=ANY
+INCREMENT x_eth_mac xilinxd 2999.99 permanent uncounted C7EB62E3089A \
+	VENDOR_STRING=License_Type:Source HOSTID=ANY
+
+
+PACKAGE System_Edition xilinxd 2050.01 A5DEA7A09AF7 COMPONENTS="SDK \
+	ChipScopePro_SIOTK ChipscopePro ISE ISIM PlanAhead SysGen XPS" \
+	OPTIONS=SUITE
+INCREMENT System_Edition xilinxd 2050.01 permanent uncounted \
+	19495981A316 \
+	VENDOR_STRING=hello@happy.friends,System_Edition,software,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=Spotted_Cuscus/RCL TS_OK
+PACKAGE Web_Package xilinxd 2050.01 AA02344376F0 \
+	COMPONENTS="PlanAhead WebPACK" OPTIONS=SUITE
+INCREMENT Web_Package xilinxd 2050.01 permanent uncounted \
+	BB173C4A8359 \
+	VENDOR_STRING=hello@happy.friends,Web_Package,software,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=Spotted_Cuscus/RCL TS_OK
+
+
+# 2037年之前的任何Vivado版本（包括HLS、AccelDSP、System Generator、软硬CPU、SOC、嵌入式Linux、重配置等等功能）都是永久使用。使用本license文件时要改名，文件名不能有汉字和空格。

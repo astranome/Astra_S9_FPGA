@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="gener4_wrapper_hw_platform_0" key="programflash.hwplatform"/>
+	<item value="" key="gener4_wrapper_hw_platform_0-offSet"/>
+	<item value="Auto Detect" key="gener4_wrapper_hw_platform_0-device"/>
+	<item value="Local" key="gener4_wrapper_hw_platform_0-target"/>
+	<item value="nand_16" key="gener4_wrapper_hw_platform_0-flashType"/>
+	<item value="C:\Xilinx\Projects\Gen4\Gen4.sdk\fsbl4\Release\fsbl4.elf" key="gener4_wrapper_hw_platform_0-fsblFile"/>
+	<item value="C:\Xilinx\Projects\Gen4\Gen4.sdk\fsbl4\bootimage\BOOT.bin" key="gener4_wrapper_hw_platform_0-imgFile"/>
+	<item value="true" key="gener4_wrapper_hw_platform_0-verifyFlash"/>
+	<item value="false" key="gener4_wrapper_hw_platform_0-blankCheck"/>
+</section>

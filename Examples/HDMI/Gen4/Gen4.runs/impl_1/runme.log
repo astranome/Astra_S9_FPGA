@@ -1,0 +1,664 @@
+
+*** Running vivado
+    with args -log gener4_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source gener4_wrapper.tcl -notrace
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source gener4_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'xilinx:packagingInfo' : Bad end of element
+CRITICAL WARNING: [IP_Flow 19-1977] Unable to read IP file c:/XVES/vivado-library-master/ip/Zmods/ZmodDigitizerController/component.xml. This IP will not be included in the IP Catalog.
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'xilinx:componentInstanceExtensions' : Bad end of element
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/XVES/vivado-library-master'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+add_files: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 312.887 ; gain = 81.059
+Command: link_design -top gener4_wrapper -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_processing_system7_0_0/gener4_processing_system7_0_0.dcp' for cell 'gener4_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_rgb2dvi_0_0/gener4_rgb2dvi_0_0.dcp' for cell 'gener4_i/rgb2dvi_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_rst_ps7_0_40M_0/gener4_rst_ps7_0_40M_0.dcp' for cell 'gener4_i/rst_ps7_0_40M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_v_axi4s_vid_out_0_0/gener4_v_axi4s_vid_out_0_0.dcp' for cell 'gener4_i/v_axi4s_vid_out_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_v_tc_0_0/gener4_v_tc_0_0.dcp' for cell 'gener4_i/v_tc_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_v_tpg_0_0/gener4_v_tpg_0_0.dcp' for cell 'gener4_i/v_tpg_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_auto_pc_0/gener4_auto_pc_0.dcp' for cell 'gener4_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 320 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_processing_system7_0_0/gener4_processing_system7_0_0.xdc] for cell 'gener4_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_processing_system7_0_0/gener4_processing_system7_0_0.xdc] for cell 'gener4_i/processing_system7_0/inst'
+Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_rst_ps7_0_40M_0/gener4_rst_ps7_0_40M_0_board.xdc] for cell 'gener4_i/rst_ps7_0_40M/U0'
+Finished Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_rst_ps7_0_40M_0/gener4_rst_ps7_0_40M_0_board.xdc] for cell 'gener4_i/rst_ps7_0_40M/U0'
+Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_rst_ps7_0_40M_0/gener4_rst_ps7_0_40M_0.xdc] for cell 'gener4_i/rst_ps7_0_40M/U0'
+Finished Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_rst_ps7_0_40M_0/gener4_rst_ps7_0_40M_0.xdc] for cell 'gener4_i/rst_ps7_0_40M/U0'
+Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_rgb2dvi_0_0/src/rgb2dvi.xdc] for cell 'gener4_i/rgb2dvi_0/U0'
+Finished Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_rgb2dvi_0_0/src/rgb2dvi.xdc] for cell 'gener4_i/rgb2dvi_0/U0'
+Parsing XDC File [C:/Xilinx/Projects/Gen4/Gen4.srcs/constrs_1/new/hdmi4.xdc]
+Finished Parsing XDC File [C:/Xilinx/Projects/Gen4/Gen4.srcs/constrs_1/new/hdmi4.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_v_axi4s_vid_out_0_0/gener4_v_axi4s_vid_out_0_0.dcp'
+Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_v_tpg_0_0/gener4_v_tpg_0_0.xdc] for cell 'gener4_i/v_tpg_0/inst'
+Finished Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_v_tpg_0_0/gener4_v_tpg_0_0.xdc] for cell 'gener4_i/v_tpg_0/inst'
+Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_v_axi4s_vid_out_0_0/gener4_v_axi4s_vid_out_0_0_clocks.xdc] for cell 'gener4_i/v_axi4s_vid_out_0/inst'
+Finished Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_v_axi4s_vid_out_0_0/gener4_v_axi4s_vid_out_0_0_clocks.xdc] for cell 'gener4_i/v_axi4s_vid_out_0/inst'
+Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_v_tc_0_0/gener4_v_tc_0_0_clocks.xdc] for cell 'gener4_i/v_tc_0/U0'
+Finished Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_v_tc_0_0/gener4_v_tc_0_0_clocks.xdc] for cell 'gener4_i/v_tc_0/U0'
+Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_rgb2dvi_0_0/src/rgb2dvi_clocks.xdc] for cell 'gener4_i/rgb2dvi_0/U0'
+Finished Parsing XDC File [c:/Xilinx/Projects/Gen4/Gen4.srcs/sources_1/bd/gener4/ip/gener4_rgb2dvi_0_0/src/rgb2dvi_clocks.xdc] for cell 'gener4_i/rgb2dvi_0/U0'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'gener4_i/v_axi4s_vid_out_0/inst/CDC_SINGLE_LOCKED_INST/xpm_cdc_single_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'gener4_i/v_axi4s_vid_out_0/inst/CDC_SINGLE_LOCKED_INST/xpm_cdc_single_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'gener4_i/v_axi4s_vid_out_0/inst/CDC_SINGLE_REMAP_UNDERFLOW_INST/xpm_cdc_single_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'gener4_i/v_axi4s_vid_out_0/inst/CDC_SINGLE_REMAP_UNDERFLOW_INST/xpm_cdc_single_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'gener4_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_sync_fifo.FIFO_INST/XPM_FIFO_SYNC_INST/xpm_fifo_base_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'gener4_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_sync_fifo.FIFO_INST/XPM_FIFO_SYNC_INST/xpm_fifo_base_inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+18 Infos, 2 Warnings, 1 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:56 . Memory (MB): peak = 1183.141 ; gain = 870.254
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1183.141 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 2 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 21ec7f50a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1183.141 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1a0787b51
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1183.141 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 42 cells and removed 234 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 181b10b97
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1183.141 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 594 cells
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG gener4_i/rgb2dvi_0/U0/ClockGenInternal.ClockGenX/PixelClk_BUFG_inst to drive 8 load(s) on clock net gener4_i/rgb2dvi_0/U0/PixelClkIO
+INFO: [Opt 31-194] Inserted BUFG gener4_i/rgb2dvi_0/U0/ClockGenInternal.ClockGenX/SerialClk_BUFG_inst to drive 8 load(s) on clock net gener4_i/rgb2dvi_0/U0/SerialClkIO
+INFO: [Opt 31-193] Inserted 2 BUFG(s) on clock nets
+Phase 4 BUFG optimization | Checksum: 23739af39
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1183.141 ; gain = 0.000
+INFO: [Opt 31-389] Phase BUFG optimization created 2 cells and removed 0 cells
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 23739af39
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1183.141 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 23739af39
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1183.141 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1183.141 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 23739af39
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1183.141 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=11.802 | TNS=0.000 |
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 5 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 3 newly gated: 0 Total Ports: 10
+Number of Flops added for Enable Generation: 3
+
+Ending PowerOpt Patch Enables Task | Checksum: 161045d73
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.415 . Memory (MB): peak = 1386.535 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 161045d73
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 1386.535 ; gain = 203.395
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1 Remap
+Phase 1 Remap | Checksum: 134d15f1a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [Opt 31-389] Phase Remap created 3 cells and removed 6 cells
+
+Phase 2 Post Processing Netlist
+Phase 2 Post Processing Netlist | Checksum: f6a04f10
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Ending Logic Optimization Task | Checksum: f6a04f10
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+46 Infos, 2 Warnings, 1 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 1386.535 ; gain = 203.395
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.941 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/Projects/Gen4/Gen4.runs/impl_1/gener4_wrapper_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file gener4_wrapper_drc_opted.rpt -pb gener4_wrapper_drc_opted.pb -rpx gener4_wrapper_drc_opted.rpx
+Command: report_drc -file gener4_wrapper_drc_opted.rpt -pb gener4_wrapper_drc_opted.pb -rpx gener4_wrapper_drc_opted.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Xilinx/Projects/Gen4/Gen4.runs/impl_1/gener4_wrapper_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1386.535 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1386.535 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: c416f5e2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.225 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: dfeb502e
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1a4e6ce10
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1a4e6ce10
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1386.535 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1a4e6ce10
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 1b497b328
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1b497b328
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 47252e11
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 4e9fada6
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 55b022e0
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: 125e244a0
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 15817b27e
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 15817b27e
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 1386.535 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 15817b27e
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: fbfe65d8
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: fbfe65d8
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=10.363. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 150e0a9e0
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1386.535 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 150e0a9e0
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 150e0a9e0
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 150e0a9e0
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 126e52233
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 1386.535 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 126e52233
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 1386.535 ; gain = 0.000
+Ending Placer Task | Checksum: c99dec86
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+67 Infos, 2 Warnings, 1 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/Projects/Gen4/Gen4.runs/impl_1/gener4_wrapper_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file gener4_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.254 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file gener4_wrapper_utilization_placed.rpt -pb gener4_wrapper_utilization_placed.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.225 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file gener4_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 1386.535 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: a6ee534e ConstDB: 0 ShapeSum: 22af9938 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 92049a3e
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:25 . Memory (MB): peak = 1386.535 ; gain = 0.000
+Post Restoration Checksum: NetGraph: 5fdfcc58 NumContArr: 3224cde6 Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 92049a3e
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:25 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 92049a3e
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:26 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 92049a3e
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:26 . Memory (MB): peak = 1386.535 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1a02a63dd
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=10.339 | TNS=0.000  | WHS=-2.565 | THS=-119.875|
+
+Phase 2 Router Initialization | Checksum: 217871669
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:29 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 200a5332d
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:30 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 556
+ Number of Nodes with overlaps = 16
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=9.526  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1cfcd96e8
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:33 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=9.526  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: f9304c7a
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:33 . Memory (MB): peak = 1386.535 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: f9304c7a
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:33 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: f9304c7a
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:33 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: f9304c7a
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:33 . Memory (MB): peak = 1386.535 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: f9304c7a
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:33 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 113d89ed8
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:33 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=9.641  | TNS=0.000  | WHS=0.025  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: c45704e8
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:33 . Memory (MB): peak = 1386.535 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: c45704e8
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:33 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 2.50535 %
+  Global Horizontal Routing Utilization  = 2.89223 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 52416ac9
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:33 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 52416ac9
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:33 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: e0cce563
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:34 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=9.641  | TNS=0.000  | WHS=0.025  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: e0cce563
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:34 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:34 . Memory (MB): peak = 1386.535 ; gain = 0.000
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+85 Infos, 2 Warnings, 1 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:38 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/Projects/Gen4/Gen4.runs/impl_1/gener4_wrapper_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file gener4_wrapper_drc_routed.rpt -pb gener4_wrapper_drc_routed.pb -rpx gener4_wrapper_drc_routed.rpx
+Command: report_drc -file gener4_wrapper_drc_routed.rpt -pb gener4_wrapper_drc_routed.pb -rpx gener4_wrapper_drc_routed.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Xilinx/Projects/Gen4/Gen4.runs/impl_1/gener4_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_methodology -file gener4_wrapper_methodology_drc_routed.rpt -pb gener4_wrapper_methodology_drc_routed.pb -rpx gener4_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file gener4_wrapper_methodology_drc_routed.rpt -pb gener4_wrapper_methodology_drc_routed.pb -rpx gener4_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Xilinx/Projects/Gen4/Gen4.runs/impl_1/gener4_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_power -file gener4_wrapper_power_routed.rpt -pb gener4_wrapper_power_summary_routed.pb -rpx gener4_wrapper_power_routed.rpx
+Command: report_power -file gener4_wrapper_power_routed.rpt -pb gener4_wrapper_power_summary_routed.pb -rpx gener4_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+97 Infos, 2 Warnings, 1 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1386.535 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_route_status -file gener4_wrapper_route_status.rpt -pb gener4_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file gener4_wrapper_timing_summary_routed.rpt -pb gener4_wrapper_timing_summary_routed.pb -rpx gener4_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file gener4_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
+INFO: [runtcl-4] Executing : report_clock_utilization -file gener4_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file route_report_bus_skew_0.rpt -rpx route_report_bus_skew_0.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Memdata 28-208] The XPM instance: <gener4_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_sync_fifo.FIFO_INST/XPM_FIFO_SYNC_INST/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <gener4_i/v_axi4s_vid_out_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+Command: write_bitstream -force gener4_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Aem_U42/gener4_v_tpg_0_0_v_tpg_mac_muladd_Aem_DSP48_4_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Aem_U42/gener4_v_tpg_0_0_v_tpg_mac_muladd_Aem_DSP48_4_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/m input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/m/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_wdI_U38/gener4_v_tpg_0_0_v_tpg_mac_muladd_wdI_DSP48_0_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_wdI_U38/gener4_v_tpg_0_0_v_tpg_mac_muladd_wdI_DSP48_0_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_zec_U41/gener4_v_tpg_0_0_v_tpg_mac_muladd_zec_DSP48_3_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_zec_U41/gener4_v_tpg_0_0_v_tpg_mac_muladd_zec_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mul_mul_9nsOgC_U71/gener4_v_tpg_0_0_v_tpg_mul_mul_9nsOgC_DSP48_8_U/in00 input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mul_mul_9nsOgC_U71/gener4_v_tpg_0_0_v_tpg_mul_mul_9nsOgC_DSP48_8_U/in00/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/p output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_wdI_U38/gener4_v_tpg_0_0_v_tpg_mac_muladd_wdI_DSP48_0_U/p output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_wdI_U38/gener4_v_tpg_0_0_v_tpg_mac_muladd_wdI_DSP48_0_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_zec_U41/gener4_v_tpg_0_0_v_tpg_mac_muladd_zec_DSP48_3_U/p output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_zec_U41/gener4_v_tpg_0_0_v_tpg_mac_muladd_zec_DSP48_3_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_am_addmul_1Mgi_U68/gener4_v_tpg_0_0_v_tpg_am_addmul_1Mgi_DSP48_6_U/m output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_am_addmul_1Mgi_U68/gener4_v_tpg_0_0_v_tpg_am_addmul_1Mgi_DSP48_6_U/m/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mac_muladd_Ngs_U70/gener4_v_tpg_0_0_v_tpg_mac_muladd_Ngs_DSP48_7_U/p output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mac_muladd_Ngs_U70/gener4_v_tpg_0_0_v_tpg_mac_muladd_Ngs_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mul_mul_9nsOgC_U71/gener4_v_tpg_0_0_v_tpg_mul_mul_9nsOgC_DSP48_8_U/in00 output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mul_mul_9nsOgC_U71/gener4_v_tpg_0_0_v_tpg_mul_mul_9nsOgC_DSP48_8_U/in00/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/p multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_wdI_U38/gener4_v_tpg_0_0_v_tpg_mac_muladd_wdI_DSP48_0_U/p multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_wdI_U38/gener4_v_tpg_0_0_v_tpg_mac_muladd_wdI_DSP48_0_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_zec_U41/gener4_v_tpg_0_0_v_tpg_mac_muladd_zec_DSP48_3_U/p multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_zec_U41/gener4_v_tpg_0_0_v_tpg_mac_muladd_zec_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_am_addmul_1Mgi_U68/gener4_v_tpg_0_0_v_tpg_am_addmul_1Mgi_DSP48_6_U/m multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_am_addmul_1Mgi_U68/gener4_v_tpg_0_0_v_tpg_am_addmul_1Mgi_DSP48_6_U/m/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mac_muladd_Ngs_U70/gener4_v_tpg_0_0_v_tpg_mac_muladd_Ngs_DSP48_7_U/p multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mac_muladd_Ngs_U70/gener4_v_tpg_0_0_v_tpg_mac_muladd_Ngs_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mul_mul_9nsOgC_U71/gener4_v_tpg_0_0_v_tpg_mul_mul_9nsOgC_DSP48_8_U/in00 multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mul_mul_9nsOgC_U71/gener4_v_tpg_0_0_v_tpg_mul_mul_9nsOgC_DSP48_8_U/in00/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 26 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./gener4_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+116 Infos, 28 Warnings, 1 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:35 ; elapsed = 00:00:44 . Memory (MB): peak = 1750.414 ; gain = 363.879
+INFO: [Common 17-206] Exiting Vivado at Wed Oct  4 09:08:25 2023...
+
+*** Running vivado
+    with args -log gener4_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source gener4_wrapper.tcl -notrace
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source gener4_wrapper.tcl -notrace
+Command: open_checkpoint gener4_wrapper_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.095 . Memory (MB): peak = 230.809 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 291 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 1058.730 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 1058.730 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2018.1 (64-bit) build 2188600
+open_checkpoint: Time (s): cpu = 00:00:40 ; elapsed = 00:01:41 . Memory (MB): peak = 1058.730 ; gain = 827.922
+INFO: [Memdata 28-208] The XPM instance: <gener4_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_sync_fifo.FIFO_INST/XPM_FIFO_SYNC_INST/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <gener4_i/v_axi4s_vid_out_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+Command: write_bitstream -force gener4_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Aem_U42/gener4_v_tpg_0_0_v_tpg_mac_muladd_Aem_DSP48_4_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Aem_U42/gener4_v_tpg_0_0_v_tpg_mac_muladd_Aem_DSP48_4_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/m input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/m/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_wdI_U38/gener4_v_tpg_0_0_v_tpg_mac_muladd_wdI_DSP48_0_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_wdI_U38/gener4_v_tpg_0_0_v_tpg_mac_muladd_wdI_DSP48_0_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_zec_U41/gener4_v_tpg_0_0_v_tpg_mac_muladd_zec_DSP48_3_U/p input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_zec_U41/gener4_v_tpg_0_0_v_tpg_mac_muladd_zec_DSP48_3_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mul_mul_9nsOgC_U71/gener4_v_tpg_0_0_v_tpg_mul_mul_9nsOgC_DSP48_8_U/in00 input gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mul_mul_9nsOgC_U71/gener4_v_tpg_0_0_v_tpg_mul_mul_9nsOgC_DSP48_8_U/in00/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/p output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_wdI_U38/gener4_v_tpg_0_0_v_tpg_mac_muladd_wdI_DSP48_0_U/p output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_wdI_U38/gener4_v_tpg_0_0_v_tpg_mac_muladd_wdI_DSP48_0_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_zec_U41/gener4_v_tpg_0_0_v_tpg_mac_muladd_zec_DSP48_3_U/p output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_zec_U41/gener4_v_tpg_0_0_v_tpg_mac_muladd_zec_DSP48_3_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_am_addmul_1Mgi_U68/gener4_v_tpg_0_0_v_tpg_am_addmul_1Mgi_DSP48_6_U/m output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_am_addmul_1Mgi_U68/gener4_v_tpg_0_0_v_tpg_am_addmul_1Mgi_DSP48_6_U/m/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mac_muladd_Ngs_U70/gener4_v_tpg_0_0_v_tpg_mac_muladd_Ngs_DSP48_7_U/p output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mac_muladd_Ngs_U70/gener4_v_tpg_0_0_v_tpg_mac_muladd_Ngs_DSP48_7_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mul_mul_9nsOgC_U71/gener4_v_tpg_0_0_v_tpg_mul_mul_9nsOgC_DSP48_8_U/in00 output gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mul_mul_9nsOgC_U71/gener4_v_tpg_0_0_v_tpg_mul_mul_9nsOgC_DSP48_8_U/in00/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/p multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_Bew_U43/gener4_v_tpg_0_0_v_tpg_mac_muladd_Bew_DSP48_5_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_wdI_U38/gener4_v_tpg_0_0_v_tpg_mac_muladd_wdI_DSP48_0_U/p multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_wdI_U38/gener4_v_tpg_0_0_v_tpg_mac_muladd_wdI_DSP48_0_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_xdS_U39/gener4_v_tpg_0_0_v_tpg_mac_muladd_xdS_DSP48_1_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_yd2_U40/gener4_v_tpg_0_0_v_tpg_mac_muladd_yd2_DSP48_2_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_zec_U41/gener4_v_tpg_0_0_v_tpg_mac_muladd_zec_DSP48_3_U/p multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternRainbow_fu_429/v_tpg_mac_muladd_zec_U41/gener4_v_tpg_0_0_v_tpg_mac_muladd_zec_DSP48_3_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_am_addmul_1Mgi_U68/gener4_v_tpg_0_0_v_tpg_am_addmul_1Mgi_DSP48_6_U/m multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_am_addmul_1Mgi_U68/gener4_v_tpg_0_0_v_tpg_am_addmul_1Mgi_DSP48_6_U/m/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mac_muladd_Ngs_U70/gener4_v_tpg_0_0_v_tpg_mac_muladd_Ngs_DSP48_7_U/p multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mac_muladd_Ngs_U70/gener4_v_tpg_0_0_v_tpg_mac_muladd_Ngs_DSP48_7_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mul_mul_9nsOgC_U71/gener4_v_tpg_0_0_v_tpg_mul_mul_9nsOgC_DSP48_8_U/in00 multiplier stage gener4_i/v_tpg_0/inst/tpgBackground_U0/grp_tpgPatternZonePlate_fu_570/v_tpg_mul_mul_9nsOgC_U71/gener4_v_tpg_0_0_v_tpg_mul_mul_9nsOgC_DSP48_8_U/in00/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 26 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./gener4_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+23 Infos, 26 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:38 ; elapsed = 00:01:16 . Memory (MB): peak = 1507.531 ; gain = 448.801
+INFO: [Common 17-206] Exiting Vivado at Wed Oct  4 10:06:51 2023...

@@ -1,0 +1,4 @@
+
+config_rtl -form_dsp
+config_schedule -verbose
+config_interface -input_reg_mode both -output_reg_mode both

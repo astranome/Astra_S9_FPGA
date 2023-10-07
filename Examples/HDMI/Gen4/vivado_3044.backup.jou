@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Oct  4 08:23:06 2023
+# Process ID: 3044
+# Current directory: C:/Xilinx/Projects/Gen4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3524 C:\Xilinx\Projects\Gen4\Gen4.xpr
+# Log file: C:/Xilinx/Projects/Gen4/vivado.log
+# Journal file: C:/Xilinx/Projects/Gen4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/Projects/Gen4/Gen4.xpr
+update_compile_order -fileset sources_1

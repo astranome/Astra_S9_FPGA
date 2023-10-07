@@ -1,0 +1,8 @@
+10:28:08 **** Auto Build of configuration Release for project tpg_800_600 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Цель `main-build' не требует выполнения команд.
+
+10:28:08 Build Finished (took 619ms)
+

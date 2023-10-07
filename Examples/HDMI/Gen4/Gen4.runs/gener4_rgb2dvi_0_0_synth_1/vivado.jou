@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Oct  4 08:53:34 2023
+# Process ID: 3132
+# Current directory: C:/Xilinx/Projects/Gen4/Gen4.runs/gener4_rgb2dvi_0_0_synth_1
+# Command line: vivado.exe -log gener4_rgb2dvi_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gener4_rgb2dvi_0_0.tcl
+# Log file: C:/Xilinx/Projects/Gen4/Gen4.runs/gener4_rgb2dvi_0_0_synth_1/gener4_rgb2dvi_0_0.vds
+# Journal file: C:/Xilinx/Projects/Gen4/Gen4.runs/gener4_rgb2dvi_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source gener4_rgb2dvi_0_0.tcl -notrace

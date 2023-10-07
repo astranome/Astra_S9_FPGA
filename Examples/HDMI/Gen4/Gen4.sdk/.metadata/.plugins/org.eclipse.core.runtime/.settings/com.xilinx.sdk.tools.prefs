@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.G4oktober\:.bss=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.G4oktober\:.data=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.G4oktober\:.data1=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.G4oktober\:.fixup=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.G4oktober\:.rodata=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.G4oktober\:.rodata1=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.G4oktober\:.sbss=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.G4oktober\:.sbss2=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.G4oktober\:.sdata=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.G4oktober\:.sdata2=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.G4oktober\:.text=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.G4oktober\:heap=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.G4oktober\:heap-size=1024
+com.xilinx.sdk.linkgen.prefs.G4oktober\:stack=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.G4oktober\:stack-size=1024
+eclipse.preferences.version=1

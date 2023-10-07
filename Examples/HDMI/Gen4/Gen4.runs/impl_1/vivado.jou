@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Oct  4 10:02:58 2023
+# Process ID: 4624
+# Current directory: C:/Xilinx/Projects/Gen4/Gen4.runs/impl_1
+# Command line: vivado.exe -log gener4_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source gener4_wrapper.tcl -notrace
+# Log file: C:/Xilinx/Projects/Gen4/Gen4.runs/impl_1/gener4_wrapper.vdi
+# Journal file: C:/Xilinx/Projects/Gen4/Gen4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source gener4_wrapper.tcl -notrace

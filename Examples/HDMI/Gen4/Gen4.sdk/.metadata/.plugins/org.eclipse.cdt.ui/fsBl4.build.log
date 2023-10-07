@@ -1,0 +1,8 @@
+10:34:21 **** Auto Build of configuration Release for project fsbl4 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Цель `main-build' не требует выполнения команд.
+
+10:34:21 Build Finished (took 337ms)
+

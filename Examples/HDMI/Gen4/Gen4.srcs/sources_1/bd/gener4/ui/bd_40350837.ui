@@ -1,0 +1,40 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 280 -defaultsOSRD
+preplace port TMDS_Clk_n_0 -pg 1 -y 130 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 300 -defaultsOSRD
+preplace port TMDS_Clk_p_0 -pg 1 -y 110 -defaultsOSRD
+preplace portBus TMDS_Data_p_0 -pg 1 -y 150 -defaultsOSRD
+preplace portBus TMDS_Data_n_0 -pg 1 -y 170 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 4 -y 140 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 3 -y 110 -defaultsOSRD
+preplace inst v_tpg_0 -pg 1 -lvl 3 -y 380 -defaultsOSRD -resize 302 236
+preplace inst rgb2dvi_0 -pg 1 -lvl 5 -y 130 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -y 150 -defaultsOSRD
+preplace inst rst_ps7_0_40M -pg 1 -lvl 1 -y 110 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 320 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 1 5 430J 10 NJ 10 1170J 280 NJ 280 NJ
+preplace netloc rgb2dvi_0_TMDS_Clk_n 1 5 1 N
+preplace netloc v_tpg_0_m_axis_video 1 3 1 1190
+preplace netloc rst_ps7_0_40M_peripheral_aresetn 1 1 4 410 20 760 200 1180 10 1480J
+preplace netloc rgb2dvi_0_TMDS_Clk_p 1 5 1 N
+preplace netloc v_axi4s_vid_out_0_vid_io_out 1 4 1 1470
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 450
+preplace netloc rst_ps7_0_40M_interconnect_aresetn 1 1 1 N
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 0 210 400
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 2 3 790 240 1160J 260 1450
+preplace netloc processing_system7_0_FIXED_IO 1 1 5 440J 30 770J 210 1150J 300 NJ 300 NJ
+preplace netloc rgb2dvi_0_TMDS_Data_n 1 5 1 N
+preplace netloc rgb2dvi_0_TMDS_Data_p 1 5 1 N
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 5 -10 10 420 270 780 20 1200 20 1460J
+preplace netloc v_tc_0_vtiming_out 1 3 1 N
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 750
+levelinfo -pg 1 -30 200 600 970 1330 1620 1770 -top 0 -bot 520
+",
+}
+{
+   da_axi4_cnt: "1",
+   da_ps7_cnt: "1",
+}

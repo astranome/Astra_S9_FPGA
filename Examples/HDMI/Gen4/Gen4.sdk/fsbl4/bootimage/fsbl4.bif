@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\Xilinx\Projects\Gen4\Gen4.sdk\fsbl4\Release\fsbl4.elf
+	C:\Xilinx\Projects\Gen4\Gen4.sdk\gener4_wrapper_hw_platform_0\gener4_wrapper.bit
+	C:\Xilinx\Projects\Gen4\Gen4.sdk\tpg_800_600\Release\tpg_800_600.elf
+}

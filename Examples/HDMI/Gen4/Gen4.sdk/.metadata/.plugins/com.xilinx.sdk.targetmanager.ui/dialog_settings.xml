@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="gener4_wrapper_hw_platform_0-partial_bit"/>
+	<item value="Local" key="gener4_wrapper_hw_platform_0-target"/>
+	<item value="Auto Detect" key="gener4_wrapper_hw_platform_0-device"/>
+	<item value="gener4_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="" key="gener4_wrapper_hw_platform_0-bmmFile"/>
+	<item value="gener4_wrapper.bit" key="gener4_wrapper_hw_platform_0-bitFile"/>
+</section>

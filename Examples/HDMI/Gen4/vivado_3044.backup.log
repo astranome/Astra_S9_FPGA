@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Oct  4 08:23:06 2023
+# Process ID: 3044
+# Current directory: C:/Xilinx/Projects/Gen4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3524 C:\Xilinx\Projects\Gen4\Gen4.xpr
+# Log file: C:/Xilinx/Projects/Gen4/vivado.log
+# Journal file: C:/Xilinx/Projects/Gen4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/Projects/Gen4/Gen4.xpr
+INFO: [Project 1-313] Project file moved from 'H:/FPGA/VGA/Gen4' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/XVES/vivado-library-master'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/XVES/vivado-library-master'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'gener4.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+gener4_rgb2dvi_0_0
+
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:18 . Memory (MB): peak = 818.410 ; gain = 122.941
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct  4 08:27:00 2023...
