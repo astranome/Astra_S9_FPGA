@@ -1,0 +1,52 @@
+03:06:42 **** Incremental Build of configuration Release for project driver ****
+make all 
+'Building file: ../src/IP_Driver.c'
+'Invoking: ARM v7 Linux gcc compiler'
+arm-linux-gnueabihf-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/IP_Driver.o" -MMD -MP -MF"src/IP_Driver.d" -MT"src/IP_Driver.o" -o "src/IP_Driver.o" "../src/IP_Driver.c"
+'Finished building: ../src/IP_Driver.c'
+' '
+'Building file: ../src/demo_polling.c'
+'Invoking: ARM v7 Linux gcc compiler'
+arm-linux-gnueabihf-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/demo_polling.o" -MMD -MP -MF"src/demo_polling.d" -MT"src/demo_polling.o" -o "src/demo_polling.o" "../src/demo_polling.c"
+../src/demo_polling.c: In function 'GpioPollingExample':
+../src/demo_polling.c:73:6: warning: unused variable 'delay_count' [-Wunused-variable]
+  u32 delay_count;
+      ^~~~~~~~~~~
+'Finished building: ../src/demo_polling.c'
+' '
+'Building file: ../src/demo_uio.c'
+'Invoking: ARM v7 Linux gcc compiler'
+arm-linux-gnueabihf-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/demo_uio.o" -MMD -MP -MF"src/demo_uio.d" -MT"src/demo_uio.o" -o "src/demo_uio.o" "../src/demo_uio.c"
+../src/demo_uio.c: In function 'main':
+../src/demo_uio.c:121:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+'Finished building: ../src/demo_uio.c'
+' '
+'Building file: ../src/mouse_emu.c'
+'Invoking: ARM v7 Linux gcc compiler'
+arm-linux-gnueabihf-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/mouse_emu.o" -MMD -MP -MF"src/mouse_emu.d" -MT"src/mouse_emu.o" -o "src/mouse_emu.o" "../src/mouse_emu.c"
+'Finished building: ../src/mouse_emu.c'
+' '
+'Building file: ../src/xgpio_sinit.c'
+'Invoking: ARM v7 Linux gcc compiler'
+arm-linux-gnueabihf-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/xgpio_sinit.o" -MMD -MP -MF"src/xgpio_sinit.d" -MT"src/xgpio_sinit.o" -o "src/xgpio_sinit.o" "../src/xgpio_sinit.c"
+'Finished building: ../src/xgpio_sinit.c'
+' '
+'Building target: driver.elf'
+'Invoking: ARM v7 Linux gcc linker'
+arm-linux-gnueabihf-gcc  -o "driver.elf"  ./src/IP_Driver.o ./src/demo_polling.o ./src/demo_uio.o ./src/mouse_emu.o ./src/xgpio_sinit.o   
+'Finished building target: driver.elf'
+' '
+'Invoking: ARM v7 Linux Print Size'
+arm-linux-gnueabihf-size driver.elf  |tee "driver.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3702	    336	     68	   4106	   100a	driver.elf
+'Finished building: driver.elf.size'
+' '
+14:48:05 **** Auto Build of project device_tree_bsp_0 ****
+make -k all 
+make: Цель `all' не требует выполнения команд.
+14:48:07 **** Auto Build of project standalone_bsp_ps2 ****
+make -k all 
+make: Цель `all' не требует выполнения команд.

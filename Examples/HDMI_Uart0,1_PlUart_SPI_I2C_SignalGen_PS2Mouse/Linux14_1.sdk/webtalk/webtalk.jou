@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# 
+# Start of session at: Sat Oct 14 05:18:21 2023
+# Process ID: 8528
+# Current directory: H:/FPGA/VGA/AX7010/SRC/course_s1/Linux14_1/Linux14_1.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: H:/FPGA/VGA/AX7010/SRC/course_s1/Linux14_1/Linux14_1.sdk/webtalk/webtalk.log
+# Journal file: H:/FPGA/VGA/AX7010/SRC/course_s1/Linux14_1/Linux14_1.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

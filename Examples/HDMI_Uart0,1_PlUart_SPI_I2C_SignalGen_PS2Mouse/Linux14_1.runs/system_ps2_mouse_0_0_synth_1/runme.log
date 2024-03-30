@@ -1,0 +1,544 @@
+
+*** Running vivado
+    with args -log system_ps2_mouse_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_ps2_mouse_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source system_ps2_mouse_0_0.tcl -notrace
+Command: synth_design -top system_ps2_mouse_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 26552 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 363.660 ; gain = 101.828
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'system_ps2_mouse_0_0' [e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ip/system_ps2_mouse_0_0/synth/system_ps2_mouse_0_0.vhd:74]
+	Parameter clk_freq bound to: 50000000 - type: integer 
+	Parameter ps2_debounce_counter_size bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'ps2_mouse_w' declared at 'e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ipshared/06f2/src/ps2_mouse_w.vhd:26' bound to instance 'U0' of component 'ps2_mouse_w' [e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ip/system_ps2_mouse_0_0/synth/system_ps2_mouse_0_0.vhd:123]
+INFO: [Synth 8-638] synthesizing module 'ps2_mouse_w' [e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ipshared/06f2/src/ps2_mouse_w.vhd:50]
+	Parameter clk_freq bound to: 50000000 - type: integer 
+	Parameter ps2_debounce_counter_size bound to: 8 - type: integer 
+	Parameter clk_freq bound to: 50000000 - type: integer 
+	Parameter debounce_counter_size bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'ps2_transceiver' declared at 'e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ipshared/06f2/src/ps2_transceiver.vhd:26' bound to instance 'ps2_transceiver_0' of component 'ps2_transceiver' [e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ipshared/06f2/src/ps2_mouse_w.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'ps2_transceiver' [e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ipshared/06f2/src/ps2_transceiver.vhd:52]
+	Parameter clk_freq bound to: 50000000 - type: integer 
+	Parameter debounce_counter_size bound to: 8 - type: integer 
+	Parameter counter_size bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'debounce' declared at 'e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ipshared/06f2/src/debounce.vhd:27' bound to instance 'debounce_ps2_clk' of component 'debounce' [e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ipshared/06f2/src/ps2_transceiver.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'debounce' [e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ipshared/06f2/src/debounce.vhd:36]
+	Parameter counter_size bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'debounce' (1#1) [e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ipshared/06f2/src/debounce.vhd:36]
+	Parameter counter_size bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'debounce' declared at 'e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ipshared/06f2/src/debounce.vhd:27' bound to instance 'debounce_ps2_data' of component 'debounce' [e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ipshared/06f2/src/ps2_transceiver.vhd:90]
+INFO: [Synth 8-256] done synthesizing module 'ps2_transceiver' (2#1) [e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ipshared/06f2/src/ps2_transceiver.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'ps2_mouse_w' (3#1) [e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ipshared/06f2/src/ps2_mouse_w.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'system_ps2_mouse_0_0' (4#1) [e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ip/system_ps2_mouse_0_0/synth/system_ps2_mouse_0_0.vhd:74]
+WARNING: [Synth 8-3331] design ps2_transceiver has unconnected port ps2_clk
+WARNING: [Synth 8-3331] design ps2_transceiver has unconnected port ps2_data
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 419.332 ; gain = 157.500
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 419.332 ; gain = 157.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 419.332 ; gain = 157.500
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraint will be written out.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.431 . Memory (MB): peak = 738.410 ; gain = 1.484
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:29 . Memory (MB): peak = 738.410 ; gain = 476.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:29 . Memory (MB): peak = 738.410 ; gain = 476.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:29 . Memory (MB): peak = 738.410 ; gain = 476.578
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ps2_transceiver'
+INFO: [Synth 8-5546] ROM "ps2_code_new" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "ack_error" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tx_busy" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "ps2_alt_bit" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 receive |                               00 |                               00
+                 inhibit |                               01 |                               01
+                transact |                               10 |                               10
+             tx_complete |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'ps2_transceiver'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:31 . Memory (MB): peak = 738.410 ; gain = 476.578
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 2     
+	   9 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               26 Bit    Registers := 1     
+	               13 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 14    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	  23 Input     32 Bit        Muxes := 1     
+	  23 Input     26 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 2     
+	   4 Input     13 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 3     
+	   4 Input     11 Bit        Muxes := 2     
+	  23 Input      9 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 4     
+	   2 Input      5 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 4     
+	   3 Input      3 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   3 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 10    
+	   4 Input      1 Bit        Muxes := 13    
+	  23 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module debounce 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module ps2_transceiver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   9 Input      1 Bit         XORs := 1     
++---Registers : 
+	               13 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     13 Bit        Muxes := 2     
+	   4 Input     13 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 3     
+	   4 Input     11 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 7     
+	   4 Input      1 Bit        Muxes := 13    
+Module ps2_mouse_w 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               26 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	  23 Input     32 Bit        Muxes := 1     
+	  23 Input     26 Bit        Muxes := 1     
+	  23 Input      9 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 4     
+	   2 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 4     
+	   3 Input      3 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	  23 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-6014] Unused sequential element U0/ps2_transceiver_0/ack_error_reg was removed.  [e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ipshared/06f2/src/ps2_transceiver.vhd:110]
+WARNING: [Synth 8-6014] Unused sequential element U0/ps2_transceiver_0/rx_error_reg was removed.  [e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ipshared/06f2/src/ps2_transceiver.vhd:113]
+INFO: [Synth 8-5546] ROM "U0/ps2_transceiver_0/ps2_code_new" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "U0/state" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design system_ps2_mouse_0_0 has unconnected port ps2_clk
+WARNING: [Synth 8-3331] design system_ps2_mouse_0_0 has unconnected port ps2_data
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\U0/tx_cmd_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_alt_bit_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/ps2_transceiver_0/ps2_clock_O_reg )
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[5]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[6]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[7]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[8]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[9]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[10]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[11]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[12]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[13]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[14]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[15]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[16]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[17]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[18]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[19]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[20]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[21]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[22]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[23]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[24]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[25]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[26]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[27]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[28]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[29]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/state_std_reg[30]' (FDCE) to 'U0/state_std_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/state_std_reg[31] )
+INFO: [Synth 8-3332] Sequential element (U0/tx_cmd_reg[6]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_transceiver_0/ps2_clock_O_reg) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/mouse_data_int_reg[31]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[30]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[29]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[28]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[27]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[26]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[25]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[24]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[23]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[22]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[21]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[20]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[19]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[18]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[17]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[16]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[15]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[14]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[13]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[12]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[11]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[10]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[9]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[8]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[7]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[6]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[5]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[4]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[3]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[2]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[1]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/ps2_alt_bit_reg[0]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/state_std_reg[31]) is unused and will be removed from module system_ps2_mouse_0_0.
+INFO: [Synth 8-3886] merging instance 'U0/state_reg[1]' (FDCE) to 'U0/state_std_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/state_reg[3]' (FDCE) to 'U0/state_std_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/state_reg[4]' (FDCE) to 'U0/state_std_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/state_reg[2]' (FDCE) to 'U0/state_std_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/state_reg[0]' (FDCE) to 'U0/state_std_reg[0]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:34 . Memory (MB): peak = 738.410 ; gain = 476.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++---------------------+------------+---------------+----------------+
+|Module Name          | RTL Object | Depth x Width | Implemented As | 
++---------------------+------------+---------------+----------------+
+|ps2_mouse_w          | tx_ena     | 32x1          | LUT            | 
+|system_ps2_mouse_0_0 | U0/tx_ena  | 32x1          | LUT            | 
++---------------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:48 . Memory (MB): peak = 748.066 ; gain = 486.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:49 . Memory (MB): peak = 748.289 ; gain = 486.457
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:49 . Memory (MB): peak = 769.691 ; gain = 507.859
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:51 . Memory (MB): peak = 769.691 ; gain = 507.859
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:51 . Memory (MB): peak = 769.691 ; gain = 507.859
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:51 . Memory (MB): peak = 769.691 ; gain = 507.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:51 . Memory (MB): peak = 769.691 ; gain = 507.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:51 . Memory (MB): peak = 769.691 ; gain = 507.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:51 . Memory (MB): peak = 769.691 ; gain = 507.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    10|
+|2     |LUT1   |    33|
+|3     |LUT2   |    26|
+|4     |LUT3   |    29|
+|5     |LUT4   |    39|
+|6     |LUT5   |    14|
+|7     |LUT6   |    56|
+|8     |FDCE   |    51|
+|9     |FDPE   |     1|
+|10    |FDRE   |   114|
+|11    |FDSE   |    12|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------------+----------------+------+
+|      |Instance                |Module          |Cells |
++------+------------------------+----------------+------+
+|1     |top                     |                |   385|
+|2     |  U0                    |ps2_mouse_w     |   385|
+|3     |    ps2_transceiver_0   |ps2_transceiver |   213|
+|4     |      debounce_ps2_clk  |debounce        |    35|
+|5     |      debounce_ps2_data |debounce_0      |    27|
++------+------------------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:51 . Memory (MB): peak = 769.691 ; gain = 507.859
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 769.691 ; gain = 188.781
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:51 . Memory (MB): peak = 769.691 ; gain = 507.859
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+146 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:57 . Memory (MB): peak = 770.137 ; gain = 513.348
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'E:/Linux14_1/Linux14_1.runs/system_ps2_mouse_0_0_synth_1/system_ps2_mouse_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP e:/Linux14_1/Linux14_1.srcs/sources_1/bd/system/ip/system_ps2_mouse_0_0/system_ps2_mouse_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'E:/Linux14_1/Linux14_1.runs/system_ps2_mouse_0_0_synth_1/system_ps2_mouse_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_ps2_mouse_0_0_utilization_synth.rpt -pb system_ps2_mouse_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 770.137 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 27 14:15:14 2024...

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Mar 27 01:26:59 2024
+# Process ID: 13124
+# Current directory: E:/SDR_HDMI_PS2-main/IP_ps2_mouse/IP_ps2_mouse.runs/synth_1
+# Command line: vivado.exe -log ps2_mouse_w.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ps2_mouse_w.tcl
+# Log file: E:/SDR_HDMI_PS2-main/IP_ps2_mouse/IP_ps2_mouse.runs/synth_1/ps2_mouse_w.vds
+# Journal file: E:/SDR_HDMI_PS2-main/IP_ps2_mouse/IP_ps2_mouse.runs/synth_1\vivado.jou
+# Running On: DESKTOP-0SNREP6, OS: Windows, CPU Frequency: 3408 MHz, CPU Physical cores: 2, Host memory: 12767 MB
+#-----------------------------------------------------------
+source ps2_mouse_w.tcl -notrace

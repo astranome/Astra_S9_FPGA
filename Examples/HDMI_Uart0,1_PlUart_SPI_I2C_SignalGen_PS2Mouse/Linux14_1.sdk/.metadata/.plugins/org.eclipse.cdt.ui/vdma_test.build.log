@@ -1,0 +1,11 @@
+05:06:48 **** Auto Build of configuration Debug for project vdma_test ****
+make all 
+'Building file: ../src/dynclk/dynclk.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -I../../vdma_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.o" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
+"arm-xilinx-eabi-gcc" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+make: *** [src/dynclk/dynclk.o] ╬°шсър 1
+
+05:06:49 Build Finished (took 1s.3ms)
+

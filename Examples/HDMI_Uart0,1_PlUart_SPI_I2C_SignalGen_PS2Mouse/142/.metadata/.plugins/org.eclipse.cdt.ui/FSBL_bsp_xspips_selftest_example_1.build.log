@@ -1,0 +1,23 @@
+02:19:43 **** Auto Build of configuration Debug for project FSBL_bsp_xspips_selftest_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xspips_selftest_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xspips_selftest_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FSBL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xspips_selftest_example.d" -MT"src/xspips_selftest_example.o" -o "src/xspips_selftest_example.o" "../src/xspips_selftest_example.c"
+'Finished building: ../src/xspips_selftest_example.c'
+' '
+'Building target: FSBL_bsp_xspips_selftest_example_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FSBL_bsp/ps7_cortexa9_0/lib -o "FSBL_bsp_xspips_selftest_example_1.elf"  ./src/xspips_selftest_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: FSBL_bsp_xspips_selftest_example_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FSBL_bsp_xspips_selftest_example_1.elf  |tee "FSBL_bsp_xspips_selftest_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26716	   1160	  22632	  50508	   c54c	FSBL_bsp_xspips_selftest_example_1.elf
+'Finished building: FSBL_bsp_xspips_selftest_example_1.elf.size'
+' '
+
+02:19:44 Build Finished (took 1s.148ms)
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="EBAZ4205_PS2_mouse_linux_prj" location="D:/EBAZ4205_PS2mouse/Vitis/EBAZ4205_PS2_mouse_linux/EBAZ4205_PS2_mouse_linux_prj" platform="D:/EBAZ4205_PS2mouse/Vitis/EBAZ4205_PS2_mouse_linux/EBAZ4205_PS2_mouse_linux/export/EBAZ4205_PS2_mouse_linux/EBAZ4205_PS2_mouse_linux.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="EBAZ4205_PS2_mouse_linux_prj_system" sysConfig="EBAZ4205_PS2_mouse_linux" runtime="C/C++" cpu="linux_domain" cpuInstance="cortex-a9" os="linux">
+  <configuration name="Debug" id="xilinx.gnu.armv7.linux.exe.debug.879570788" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.linux.exe.release.911666596" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="linux_hello_world"/>
+</sdkproject:SdkProject>

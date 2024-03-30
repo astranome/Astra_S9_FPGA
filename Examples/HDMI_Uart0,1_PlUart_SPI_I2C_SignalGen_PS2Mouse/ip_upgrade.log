@@ -1,0 +1,142 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jan 26 09:56:39 2024
+| Host         : UUBP-THINK running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_xlconstant_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_xlconstant_1_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jan 26 09:56:39 2024
+| Host         : UUBP-THINK running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jan 26 09:56:39 2024
+| Host         : UUBP-THINK running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_processing_system7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_processing_system7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jan 26 09:56:39 2024
+| Host         : UUBP-THINK running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axis_subset_converter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axis_subset_converter_0_0 (xilinx.com:ip:axis_subset_converter:1.1) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jan 26 09:56:39 2024
+| Host         : UUBP-THINK running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_vdma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axi_vdma_0_0 (xilinx.com:ip:axi_vdma:6.3) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jan 26 09:56:39 2024
+| Host         : UUBP-THINK running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_mem_intercon_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axi_mem_intercon_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jan 26 09:56:39 2024
+| Host         : UUBP-THINK running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_gpio_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_axi_gpio_0_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 18) to (Rev. 19)
+

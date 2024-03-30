@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Jan 29 01:29:40 2024
+# Process ID: 7200
+# Current directory: H:/FPGA/VGA/AX7010/Linux14_1/Linux14_1.runs/system_axis_subset_converter_0_0_synth_1
+# Command line: vivado.exe -log system_axis_subset_converter_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_axis_subset_converter_0_0.tcl
+# Log file: H:/FPGA/VGA/AX7010/Linux14_1/Linux14_1.runs/system_axis_subset_converter_0_0_synth_1/system_axis_subset_converter_0_0.vds
+# Journal file: H:/FPGA/VGA/AX7010/Linux14_1/Linux14_1.runs/system_axis_subset_converter_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_axis_subset_converter_0_0.tcl -notrace

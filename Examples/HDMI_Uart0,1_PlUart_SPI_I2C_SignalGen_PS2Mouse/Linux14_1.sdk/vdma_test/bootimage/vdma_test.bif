@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]E:\AX7010\labs\vdma_test\vdma_test.sdk\fsbl\Debug\fsbl.elf
+	E:\AX7010\labs\vdma_test\vdma_test.sdk\system_wrapper_hw_platform_0\system_wrapper.bit
+	E:\AX7010\labs\vdma_test\vdma_test.sdk\vdma_test\Debug\vdma_test.elf
+}

@@ -1,0 +1,6 @@
+14:48:07 **** Auto Build of project standalone_bsp_ps2 ****
+make -k all 
+make: Цель `all' не требует выполнения команд.
+
+14:48:07 Build Finished (took 126ms)
+

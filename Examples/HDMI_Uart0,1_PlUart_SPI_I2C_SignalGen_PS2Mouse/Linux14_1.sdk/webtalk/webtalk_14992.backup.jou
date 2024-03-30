@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# 
+# Start of session at: Fri Oct 28 09:59:40 2016
+# Process ID: 14992
+# Current directory: E:/AX7010/labs/vdma_test/vdma_test.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: E:/AX7010/labs/vdma_test/vdma_test.sdk/webtalk/webtalk.log
+# Journal file: E:/AX7010/labs/vdma_test/vdma_test.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

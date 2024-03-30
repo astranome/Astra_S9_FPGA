@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Mar 27 18:11:11 2024
+# Process ID: 11180
+# Current directory: E:/Linux14_1/Linux14_1.runs/synth_1
+# Command line: vivado.exe -log system_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_wrapper.tcl
+# Log file: E:/Linux14_1/Linux14_1.runs/synth_1/system_wrapper.vds
+# Journal file: E:/Linux14_1/Linux14_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

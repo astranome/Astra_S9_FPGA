@@ -1,0 +1,11 @@
+05:06:24 **** Auto Build of configuration Debug for project fsbl ****
+make all 
+'Building file: ../src/fsbl_handoff.S'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I"H:\FPGA\VGA\AX7010\SRC\course_s1\Linux14_1\Linux14_1.sdk\system_wrapper_hw_platform_1" -c -fmessage-length=0 -MT"src/fsbl_handoff.o" -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_handoff.d" -MT"src/fsbl_handoff.o" -o "src/fsbl_handoff.o" "../src/fsbl_handoff.S"
+"arm-xilinx-eabi-gcc" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+make: *** [src/fsbl_handoff.o] ╬°шсър 1
+
+05:06:25 Build Finished (took 1s.189ms)
+

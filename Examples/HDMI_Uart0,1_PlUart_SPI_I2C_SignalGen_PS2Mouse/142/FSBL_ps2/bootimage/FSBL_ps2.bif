@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]E:\Linux14_1\142\FSBL_ps2\Release\FSBL_ps2.elf
+	E:\Linux14_1\142\system_wrapper_hw_platform_0\system_wrapper.bit
+	E:\u-boot.elf
+}

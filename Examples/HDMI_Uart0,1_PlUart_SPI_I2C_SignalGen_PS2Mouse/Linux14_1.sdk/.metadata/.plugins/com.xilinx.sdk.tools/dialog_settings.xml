@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="system_wrapper_hw_platform_0" key="programflash.hwplatform"/>
+	<item value="Local" key="system_wrapper_hw_platform_0-target"/>
+	<item value="E:\AX7010\labs\vdma_test\BOOT.bin" key="system_wrapper_hw_platform_0-imgFile"/>
+	<item value="" key="system_wrapper_hw_platform_0-fsblFile"/>
+	<item value="false" key="system_wrapper_hw_platform_0-verifyFlash"/>
+	<item value="false" key="system_wrapper_hw_platform_0-blankCheck"/>
+	<item value="" key="system_wrapper_hw_platform_0-offSet"/>
+	<item value="qspi_single" key="system_wrapper_hw_platform_0-flashType"/>
+	<item value="Auto Detect" key="system_wrapper_hw_platform_0-device"/>
+</section>
