@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="E:/Astra_S9_FPGA/Examples/HDMI_Uart0,1_PlUart_SPI_I2C_SignalGen_PS2Mouse/Linux7010.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+
