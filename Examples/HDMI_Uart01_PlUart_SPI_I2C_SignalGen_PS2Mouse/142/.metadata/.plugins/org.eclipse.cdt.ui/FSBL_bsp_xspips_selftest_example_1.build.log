@@ -1,4 +1,4 @@
-02:19:43 **** Auto Build of configuration Debug for project FSBL_bsp_xspips_selftest_example_1 ****
+21:12:09 **** Auto Build of configuration Debug for project FSBL_bsp_xspips_selftest_example_1 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
@@ -19,5 +19,5 @@ arm-none-eabi-size FSBL_bsp_xspips_selftest_example_1.elf  |tee "FSBL_bsp_xspips
 'Finished building: FSBL_bsp_xspips_selftest_example_1.elf.size'
 ' '
 
-02:19:44 Build Finished (took 1s.148ms)
+21:12:11 Build Finished (took 1s.40ms)
 

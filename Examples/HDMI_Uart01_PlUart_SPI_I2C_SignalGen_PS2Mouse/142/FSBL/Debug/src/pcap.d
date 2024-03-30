@@ -20,7 +20,7 @@ src/pcap.o src/pcap.o: ../src/pcap.c ../src/pcap.h \
  ../../FSBL_bsp/ps7_cortexa9_0/include/xparameters.h \
  ../../FSBL_bsp/ps7_cortexa9_0/include/xpseudo_asm.h \
  ../../FSBL_bsp/ps7_cortexa9_0/include/xil_printf.h ../src/fsbl_debug.h \
- E:\Linux14_1\142\system_wrapper_hw_platform_0/ps7_init.h \
+ E:\Astra_S9_FPGA\Examples\HDMI_Uart01_PlUart_SPI_I2C_SignalGen_PS2Mouse\142\system_wrapper_hw_platform_0/ps7_init.h \
  ../src/image_mover.h \
  ../../FSBL_bsp/ps7_cortexa9_0/include/xil_exception.h \
  ../../FSBL_bsp/ps7_cortexa9_0/include/sleep.h \
@@ -76,7 +76,7 @@ src/pcap.o src/pcap.o: ../src/pcap.c ../src/pcap.h \
 
 ../src/fsbl_debug.h:
 
-E:\Linux14_1\142\system_wrapper_hw_platform_0/ps7_init.h:
+E:\Astra_S9_FPGA\Examples\HDMI_Uart01_PlUart_SPI_I2C_SignalGen_PS2Mouse\142\system_wrapper_hw_platform_0/ps7_init.h:
 
 ../src/image_mover.h:
 

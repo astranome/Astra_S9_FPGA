@@ -17,7 +17,7 @@ src/image_mover.o src/image_mover.o: ../src/image_mover.c ../src/fsbl.h \
  ../../FSBL_ps2_bsp/ps7_cortexa9_0/include/xstatus.h \
  ../../FSBL_ps2_bsp/ps7_cortexa9_0/include/xil_assert.h \
  ../src/fsbl_debug.h \
- E:\Linux14_1\142\system_wrapper_hw_platform_0/ps7_init.h \
+ E:\Astra_S9_FPGA\Examples\HDMI_Uart01_PlUart_SPI_I2C_SignalGen_PS2Mouse\142\system_wrapper_hw_platform_0/ps7_init.h \
  ../src/image_mover.h \
  ../../FSBL_ps2_bsp/ps7_cortexa9_0/include/xreg_cortexa9.h \
  ../src/fsbl_hooks.h ../src/md5.h \
@@ -63,7 +63,7 @@ src/image_mover.o src/image_mover.o: ../src/image_mover.c ../src/fsbl.h \
 
 ../src/fsbl_debug.h:
 
-E:\Linux14_1\142\system_wrapper_hw_platform_0/ps7_init.h:
+E:\Astra_S9_FPGA\Examples\HDMI_Uart01_PlUart_SPI_I2C_SignalGen_PS2Mouse\142\system_wrapper_hw_platform_0/ps7_init.h:
 
 ../src/image_mover.h:
 

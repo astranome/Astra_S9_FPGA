@@ -1,4 +1,4 @@
-02:51:20 **** Auto Build of project mousedrv_bsp ****
+21:13:05 **** Build of project mousedrv_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_5/src"
 make -C ps7_cortexa9_0/libsrc/axivdma_v6_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
@@ -147,5 +147,5 @@ mfs_filesys.c:1010:16: warning: comparison between signed and unsigned integer e
 make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
 'Finished building libraries'
 
-02:51:54 Build Finished (took 34s.225ms)
+21:13:42 Build Finished (took 37s.119ms)
 

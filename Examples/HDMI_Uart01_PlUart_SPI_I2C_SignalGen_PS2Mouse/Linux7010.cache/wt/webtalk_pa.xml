@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Sat Mar 30 20:53:29 2024">
+<application name="pa" timeStamp="Sat Mar 30 20:58:15 2024">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="fc98a722da6d4112995b97e7de21f184" type="ProjectID"/>
-<property name="ProjectIteration" value="3" type="ProjectIteration"/>
+<property name="ProjectIteration" value="5" type="ProjectIteration"/>
 </section>
 <section name="PlanAhead Usage" visible="true">
 <item name="Project Data">
@@ -22,19 +22,21 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="OpenBlockDesign" value="1" type="JavaHandler"/>
 <property name="OpenProject" value="2" type="JavaHandler"/>
 <property name="ReportIPStatus" value="1" type="JavaHandler"/>
-<property name="RunBitgen" value="2" type="JavaHandler"/>
+<property name="RunBitgen" value="3" type="JavaHandler"/>
+<property name="RunImplementation" value="1" type="JavaHandler"/>
 <property name="RunSynthesis" value="3" type="JavaHandler"/>
-<property name="ToolsSettings" value="2" type="JavaHandler"/>
+<property name="ShowView" value="1" type="JavaHandler"/>
+<property name="ToolsSettings" value="3" type="JavaHandler"/>
 <property name="ZoomIn" value="3" type="JavaHandler"/>
 </item>
 <item name="Gui Handlers">
 <property name="AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS" value="2" type="GuiHandlerData"/>
 <property name="AddRepositoryInfoDialog_OK" value="1" type="GuiHandlerData"/>
-<property name="BaseDialog_OK" value="9" type="GuiHandlerData"/>
+<property name="BaseDialog_OK" value="14" type="GuiHandlerData"/>
 <property name="BaseDialog_YES" value="2" type="GuiHandlerData"/>
-<property name="ExpRunTreePanel_EXP_RUN_TREE_TABLE" value="12" type="GuiHandlerData"/>
+<property name="ExpRunTreePanel_EXP_RUN_TREE_TABLE" value="14" type="GuiHandlerData"/>
 <property name="FileSetPanel_FILE_SET_PANEL_TREE" value="3" type="GuiHandlerData"/>
-<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="8" type="GuiHandlerData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="9" type="GuiHandlerData"/>
 <property name="GettingStartedView_OPEN_PROJECT" value="2" type="GuiHandlerData"/>
 <property name="MainMenuMgr_CHECKPOINT" value="6" type="GuiHandlerData"/>
 <property name="MainMenuMgr_EXPORT" value="4" type="GuiHandlerData"/>
@@ -48,8 +50,10 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PACommandNames_CLOSE_PROJECT" value="3" type="GuiHandlerData"/>
 <property name="PACommandNames_GENERATE_COMPOSITE_FILE" value="1" type="GuiHandlerData"/>
 <property name="PACommandNames_REPORT_IP_STATUS" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_RUN_BITGEN" value="1" type="GuiHandlerData"/>
 <property name="PACommandNames_ZOOM_IN" value="3" type="GuiHandlerData"/>
-<property name="SettingsDialog_PROJECT_TREE" value="3" type="GuiHandlerData"/>
+<property name="RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES" value="1" type="GuiHandlerData"/>
+<property name="SettingsDialog_PROJECT_TREE" value="5" type="GuiHandlerData"/>
 <property name="SettingsProjectIPRepositoryPage_ADD_REPOSITORY" value="1" type="GuiHandlerData"/>
 <property name="SettingsProjectIPRepositoryPage_REPOSITORY_CHOOSER" value="1" type="GuiHandlerData"/>
 <property name="SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY" value="1" type="GuiHandlerData"/>
@@ -58,11 +62,6 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="SyntheticaStateMonitor_CANCEL" value="4" type="GuiHandlerData"/>
 <property name="SystemTreeView_SYSTEM_TREE" value="2" type="GuiHandlerData"/>
 <property name="TclConsoleView_TCL_CONSOLE_CODE_EDITOR" value="1" type="GuiHandlerData"/>
-</item>
-<item name="Other">
-<property name="GuiMode" value="1" type="GuiMode"/>
-<property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="0" type="TclMode"/>
 </item>
 </section>
 </application>

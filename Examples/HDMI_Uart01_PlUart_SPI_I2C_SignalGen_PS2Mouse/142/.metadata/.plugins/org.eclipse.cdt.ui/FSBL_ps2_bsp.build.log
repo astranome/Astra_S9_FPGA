@@ -1,4 +1,4 @@
-02:19:44 **** Build of project FSBL_ps2_bsp ****
+21:12:11 **** Build of project FSBL_ps2_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_5/src"
 make -C ps7_cortexa9_0/libsrc/axivdma_v6_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
@@ -53,6 +53,7 @@ make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s include  "SHELL=CMD" "COMPILER=
 "Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_5/src"
 make -C ps7_cortexa9_0/libsrc/axivdma_v6_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
 "Compiling axivdma"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
 "Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
 make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
 "Compiling coresightps_dcc"
@@ -83,6 +84,29 @@ make -C ps7_cortexa9_0/libsrc/iicps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-
 "Running Make libs in ps7_cortexa9_0/libsrc/lwip202_v1_1/src"
 make -C ps7_cortexa9_0/libsrc/lwip202_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
 "Compiling lwip src and adapter files"
+contrib/ports/xilinx/netif/xemacpsif.c: In function 'xemacpsif_init':
+contrib/ports/xilinx/netif/xemacpsif.c:728:16: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  netif->output = xemacpsif_output;
+                ^
+In file included from ../../../include/xemacps.h:350:0,
+                 from ../../../include/netif/xemacpsif.h:59,
+                 from contrib/ports/xilinx/netif/xemacpsif_dma.c:39:
+contrib/ports/xilinx/netif/xemacpsif_dma.c: In function 'init_dma':
+../../../include/xemacps_hw.h:603:23: warning: 'bdrxterminate' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define XEmacPs_Out32 Xil_Out32
+                       ^~~~~~~~~
+contrib/ports/xilinx/netif/xemacpsif_dma.c:558:14: note: 'bdrxterminate' was declared here
+  XEmacPs_Bd *bdrxterminate;
+              ^~~~~~~~~~~~~
+In file included from ../../../include/xemacps.h:351:0,
+                 from ../../../include/netif/xemacpsif.h:59,
+                 from contrib/ports/xilinx/netif/xemacpsif_dma.c:39:
+../../../include/xemacps_bd.h:144:12: warning: 'bdtxterminate' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  (*(u32 *)((UINTPTR)((void*)(BaseAddress)) + (u32)(Offset)))
+            ^
+contrib/ports/xilinx/netif/xemacpsif_dma.c:557:14: note: 'bdtxterminate' was declared here
+  XEmacPs_Bd *bdtxterminate;
+              ^~~~~~~~~~~~~
 "Running Make libs in ps7_cortexa9_0/libsrc/nandps_v2_3/src"
 make -C ps7_cortexa9_0/libsrc/nandps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
 "Compiling nandps"
@@ -142,5 +166,5 @@ make -C ps7_cortexa9_0/libsrc/xilffs_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm
 make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
 'Finished building libraries'
 
-02:20:20 Build Finished (took 35s.128ms)
+21:12:59 Build Finished (took 48s.853ms)
 
