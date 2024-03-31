@@ -1,8 +1,11 @@
 Создайте на SD флешке 2 раздела, первый от 30М до 1Г (на случай размещения образа ФС на этом разделе)
 FAT or FAT32 with Label "BOOT" and size about 100M.
 Туда скиньте файлы из этой директории
-Copy 4 files from here into SD BOOT part
+Copy 4 files from here into SDа BOOT part
 Второй раздел ext4 для файловой системы вашего Линукса.
 Например отсюда https://rcn-ee.com/rootfs/eewiki/minfs/
 Second part = ext4 with max size and label "rootfs" for Root FS place, like Ubuntu or Debian
 Возможно, будет хорошей идеей создать  СВАП раздел...
+Создание свапа на SD - очень плохая идея, это приведет с скорейшей кончине  СД карты. 
+Вообще-то свап не нужен, 500М хватает, если не запускать браузер
+Можно разместить файл подкачки на NAND - 200Mb или на NFS (с небольшими ухищрениями) 
