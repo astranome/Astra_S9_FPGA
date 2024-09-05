@@ -1,6 +1,6 @@
 Создайте на SD карте 2 раздела
-FAT32 метка BOOT размером от 100Мб
-Ext4 label rootfs size > 6 Mb
+1. FAT32 метка BOOT размером от 100Мб
+2. Ext4 label rootfs size > 6 Gb
 В раздел Fat скопируйте
 devicetree.dtb
 uEnv.txt
