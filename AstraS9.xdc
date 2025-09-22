@@ -1,6 +1,6 @@
 ############################################################################
 ##                                                                                                                                                ##
-##    AstraS9 1.1 pin Constraint file by Astranome                                                                    ##
+##    AstraS9 1.2 pin Constraint file by Astranome                                                                    ##
 ##                                                                                                                                                ##
 ############################################################################
 
@@ -40,57 +40,28 @@ set_property iostandard "LVCMOS33" [get_ports "MIO[15]"]
 set_property PACKAGE_PIN "C8" [get_ports "MIO[15]"]
 set_property PIO_DIRECTION "OUTPUT" [get_ports "MIO[15]"]
 
-
-#  D6 / green //bar led 1 of 4, smt  / 34_L8P
-set_property iostandard "LVCMOS25" [get_ports "IO_L8P_T1_34"]
-set_property PACKAGE_PIN "W14" [get_ports "IO_L8P_T1_34"]
-set_property PIO_DIRECTION "OUTPUT" [get_ports "IO_L8P_T1_34"]
-#  D5  / green //bar led  2 of 4, smt  / 34_L7P
-set_property iostandard "LVCMOS25" [get_ports "IO_L7P_T1_34"]
-set_property PACKAGE_PIN "Y16" [get_ports "IO_L7P_T1_34"]
-set_property PIO_DIRECTION "OUTPUT" [get_ports "IO_L7P_T1_34"]
-# D8  /  green //bar led 3 of 4, smt  / 34_L9P
-set_property iostandard "LVCMOS25" [get_ports "IO_L9P_T1_DQS_34"]
-set_property PACKAGE_PIN "T16" [get_ports "IO_L9P_T1_DQS_34"]
-set_property PIO_DIRECTION "OUTPUT" [get_ports "IO_L9P_T1_DQS_34"]
-# D7  / green //bar led 4 of 4, smt  / 34_L6P
-set_property iostandard "LVCMOS25" [get_ports "IO_L6P_T1_34"]
-set_property PACKAGE_PIN "P14" [get_ports "IO_L6P_T1_34"]
-set_property PIO_DIRECTION "OUTPUT" [get_ports "IO_L6P_T1_34"]
-
+# Four Green Leds
+set_property IOSTANDARD LVCMOS33 [get_ports {leds[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {leds[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {leds[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {leds[0]}]
+set_property PACKAGE_PIN M17 [get_ports {leds[0]}]
+set_property PACKAGE_PIN M19 [get_ports {leds[1]}]
+set_property PACKAGE_PIN L19 [get_ports {leds[2]}]
+set_property PACKAGE_PIN F16 [get_ports {leds[3]}]
 
 ############################################################################
-# SPI 1                                                                                                                                          #
+# SPI 0                                                                                                                                          #
 ############################################################################
 
-#  SPI 1 / ss[0] / MIO[37]
-set_property iostandard "LVCMOS25" [get_ports "MIO[37]"]
-set_property PACKAGE_PIN "A10" [get_ports "MIO[37]"]
-set_property slew "slow" [get_ports "MIO[37]"]
-set_property drive "8" [get_ports "MIO[37]"]
-set_property pullup "TRUE" [get_ports "MIO[37]"]
-set_property PIO_DIRECTION "BIDIR" [get_ports "MIO[37]"]
-#  SPI 1 / sclk / MIO[36]
-set_property iostandard "LVCMOS25" [get_ports "MIO[36]"]
-set_property PACKAGE_PIN "A11" [get_ports "MIO[36]"]
-set_property slew "slow" [get_ports "MIO[36]"]
-set_property drive "8" [get_ports "MIO[36]"]
-set_property pullup "TRUE" [get_ports "MIO[36]"]
-set_property PIO_DIRECTION "BIDIR" [get_ports "MIO[36]"]
-#  SPI 1 / miso / MIO[35]
-set_property iostandard "LVCMOS25" [get_ports "MIO[35]"]
-set_property PACKAGE_PIN "F12" [get_ports "MIO[35]"]
-set_property slew "slow" [get_ports "MIO[35]"]
-set_property drive "8" [get_ports "MIO[35]"]
-set_property pullup "TRUE" [get_ports "MIO[35]"]
-set_property PIO_DIRECTION "BIDIR" [get_ports "MIO[35]"]
-#  SPI 1 / mosi / MIO[34]
-set_property iostandard "LVCMOS25" [get_ports "MIO[34]"]
-set_property PACKAGE_PIN "A12" [get_ports "MIO[34]"]
-set_property slew "slow" [get_ports "MIO[34]"]
-set_property drive "8" [get_ports "MIO[34]"]
-set_property pullup "TRUE" [get_ports "MIO[34]"]
-set_property PIO_DIRECTION "BIDIR" [get_ports "MIO[34]"]
+set_property IOSTANDARD LVCMOS33 [get_ports SPI0_MISO_I_0]
+set_property IOSTANDARD LVCMOS33 [get_ports SPI0_MOSI_O_0]
+set_property IOSTANDARD LVCMOS33 [get_ports SPI0_SCLK_O_0]
+set_property IOSTANDARD LVCMOS33 [get_ports SPI0_SS_O_0]
+set_property PACKAGE_PIN R14 [get_ports SPI0_MISO_I_0]
+set_property PACKAGE_PIN T14 [get_ports SPI0_MOSI_O_0]
+set_property PACKAGE_PIN T15 [get_ports SPI0_SCLK_O_0]
+set_property PACKAGE_PIN P14 [get_ports SPI0_SS_O_0]
 
 ############################################################################
 # UART 1                                                                                                                                      #
