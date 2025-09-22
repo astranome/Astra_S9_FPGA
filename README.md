@@ -30,7 +30,8 @@ Test applications have been launched — pattern generators —HDMI and VGA moni
 ———-2024——-
 
 PYNQ—Ubuntu successfully displays the console, MS, pictures and video clips on the HDMI monitor
-<img width="900" height="506" alt="image" src="https://github.com/user-attachments/assets/6428a737-9c05-4f8e-b339-ac2373852cf4" />
+
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/8178aa6c-72a5-496f-a6d3-524a85726c98" />
 
 
 Lubuntu-desktop is running
@@ -65,6 +66,8 @@ I2S implementation — audio is played, while HDMI does not work due to the prop
 
 The web radio is working, the ZynAddSubFX Yoshimi midi synthesizer, the FluidSynth midi player and the RoseGarden sound studio are implemented
 <img width="506" height="900" alt="image" src="https://github.com/user-attachments/assets/0da6b966-2b85-4399-897b-d242fe989fa1" />
+<img width="972" height="666" alt="image" src="https://github.com/user-attachments/assets/8432c6b0-a46d-4b7d-bc8b-f65fe3d8c993" />
+<img width="1590" height="892" alt="image" src="https://github.com/user-attachments/assets/dde7e80e-2965-4d9d-b07c-376b71ef88b1" />
 
 the microphone is working
 <img width="458" height="436" alt="image" src="https://github.com/user-attachments/assets/004df89d-67cd-46b3-beaa-178337fcf98a" />
@@ -74,6 +77,11 @@ the microphone is working
 
 VGA1bit
 <img width="900" height="506" alt="image" src="https://github.com/user-attachments/assets/4b28ca59-5611-46b8-8389-ec31150ae5c6" />
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/a164c852-3cb9-4bbe-8451-52978921dd1a" />
 
 VGA runs on a standard core, now audio and video are played at the same time. The disadvantage is that the CA requires a lot - 14 pins for 4bit per color mode, while the picture quality is tolerable, not ideal, to improve the color space, you will need to use 12 more pins = 26 (and 52 resistors), there are very few free pins left.
 
+There is a very similar board - Antminer T9+
+<img width="756" height="565" alt="image" src="https://github.com/user-attachments/assets/0d75543a-fa79-4c37-9165-8bac0d591f53" />
+
+https://github.com/opensatellite/antminer_t9/tree/master
