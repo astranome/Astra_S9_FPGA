@@ -1,8 +1,10 @@
 # Astra_S9_FPGA
 Astra_S9_FPGA is a FPGA-SoC Development Board from used Antminer S9 Control Board.
-It is a Powerful FPGA/SoC Development Board made from a repurposed Antminer S9 Control Board.(Also works on T9+ Control Boards) It provide a cheap, powerful, efficient and versatile development environment for low-cost and is the perfect way of getting into FPGA for beginners.
+This board WAS NOT DESIGNED as a motherboard with the ability to connect anything other than hashboards. It has no video output,USB,SPI, I2S, or audio. It is an industrial equipment for one specific task, made to high standards of reliability and durability.
 
-I got the idea to tranform miner control board into valuable development platform a couple years ago but it stayed in the idea state for a while because i was lacking the time , but i finaly got myself time to make development more accessible for lot of hobyist that dont have the money nor want to spend hundreds and thousands of dollars to only be able to get an FPGA Board. With the price of the commercialy avaible boards like the Alinx or the Pynq platforms already high and increasing every day, and the shortage of chips and suplly chains made this project even more relevant and repurposing existing and cheap board into something comparable to those commercial paltform almost became a need.
+But there is a great advantage over other platforms such as Raspberry, Orange, Banana, BeagleBoard. This is the ZYNQ 7000, that is, in addition to the SoC (microprocessor), there is an FPGA in the chip, which can be implemented (synthesized) in hardware, rather than emulated, for example, a pair of microcontrollers, a video card, video and audio codecs, USB, a dozen comports, Crypto cores, scalers, media converters, frequency synthesizers and much more.
+
+But there are some limitations. For example, only DDR3 memory is supported, with a capacity of up to 1000MB. And the frequency of both CORTEX A9 processor cores is much less than 1000 MHz.
 ![astra_S9](https://github.com/astranome/Astra_S9_FPGA/assets/36866164/6c7fab8c-ea6c-4d7e-a985-55440a636fb7)
 ![ubun](https://github.com/astranome/Astra_S9_FPGA/assets/36866164/6ee16010-37d4-4a46-909a-a471a75b5c6d)
 
