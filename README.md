@@ -82,6 +82,8 @@ VGA1bit
 
 VGA runs on a standard core, now audio and video are played at the same time. The disadvantage is that the CA requires a lot - 14 pins for 4bit per color mode, while the picture quality is tolerable, not ideal, to improve the color space, you will need to use 12 more pins = 26 (and 52 resistors), there are very few free pins left.
 
+-------------- Valid links --------------
+---------------------------------------------------------------------------------------------
 There is a very similar board - Antminer T9+
 <img width="756" height="565" alt="image" src="https://github.com/user-attachments/assets/0d75543a-fa79-4c37-9165-8bac0d591f53" />
 
