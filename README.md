@@ -30,6 +30,7 @@ Test applications have been launched — pattern generators —HDMI and VGA moni
 ———-2024——-
 
 PYNQ—Ubuntu successfully displays the console, MS, pictures and video clips on the HDMI monitor
+<img width="900" height="506" alt="image" src="https://github.com/user-attachments/assets/f51d1b0a-c897-4a23-bd87-c8fde08c66dc" />
 
 <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/8178aa6c-72a5-496f-a6d3-524a85726c98" />
 
