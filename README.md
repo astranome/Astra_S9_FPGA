@@ -88,3 +88,5 @@ There is a very similar board - Antminer T9+
 <img width="756" height="565" alt="image" src="https://github.com/user-attachments/assets/0d75543a-fa79-4c37-9165-8bac0d591f53" />
 
 https://github.com/opensatellite/antminer_t9/tree/master
+If you have good soldering skills, you might want to make a devboard yourself.
+The Gerber files can be found here https://github.com/cropinghigh/zynq_a9_mb 
