@@ -134,3 +134,5 @@ https://github.com/astranome/MicroBlaze-on-Zynq-7010
 
 https://github.com/astranome/S9_VGA/tree/master/S9_vga
 
+SDR Receiver:
+https://github.com/iliasam/OpenZynqSDR_HW
