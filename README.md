@@ -125,3 +125,12 @@ The Gerber files can be found here https://github.com/cropinghigh/zynq_a9_mb
 Minimal LCD1602A module using gpiod and nothing else, tested on ZYNQ 7010 running Armbian Ubuntu
 
 https://github.com/astranome/LCD1602-Python-Module-compatible-with-ZYNQ-
+
+This is the simplest example of a Blink on a Microblaze. The constrain is made for the S9 board
+
+https://github.com/astranome/MicroBlaze-on-Zynq-7010
+
+1 bit VGA 
+
+https://github.com/astranome/S9_VGA/tree/master/S9_vga
+
