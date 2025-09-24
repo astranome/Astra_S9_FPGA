@@ -6,3 +6,9 @@ Linux kernel for HDMI from ALINX
 
 https://github.com/alinxalinx/linux_kernel-alinx
 
+The PS/2 implementation is taken from here:
+
+https://github.com/guido57/EBAZ4205_PS2mouse
+
+The basic examples are taken from here:
+https://github.com/KarolNi/S9miner_sample
