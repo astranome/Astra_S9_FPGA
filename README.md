@@ -121,3 +121,7 @@ If you have good soldering skills, you might want to make a devboard yourself.
 <img width="1189" height="1062" alt="image" src="https://github.com/user-attachments/assets/f8bbae78-86bf-4b37-b54a-6a9fd883b5e9" />
 
 The Gerber files can be found here https://github.com/cropinghigh/zynq_a9_mb 
+
+Minimal LCD1602A module using gpiod and nothing else, tested on ZYNQ 7010 running Armbian Ubuntu
+
+https://github.com/astranome/LCD1602-Python-Module-compatible-with-ZYNQ-
