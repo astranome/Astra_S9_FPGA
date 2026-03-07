@@ -136,3 +136,6 @@ https://github.com/astranome/S9_VGA/tree/master/S9_vga
 
 SDR Receiver:
 https://github.com/iliasam/OpenZynqSDR_HW
+
+Astra_S9_Base = With All interfaces : HDMI, I2S (In & Out), I2C, SPI, 16xGPIO (PL), Stereo Audio OUT, MIDI
+https://github.com/astranome/Astra_S9_FPGA_Base
